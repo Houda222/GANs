@@ -1,0 +1,7 @@
+
+Training ...
+Epoch [1 / 500] average loss generator vs. discrim.: 71.649864 vs. 1.402228
+Epoch [2 / 500] average loss generator vs. discrim.: 34.066528 vs. 0.000000
+Epoch [3 / 500] average loss generator vs. discrim.: 31.017445 vs. 0.000000
+Epoch [4 / 500] average loss generator vs. discrim.: 26.915442 vs. 0.000000
+Epoch [5 / 500] average loss generator vs. discrim.: 23.707430 vs. 0.000000

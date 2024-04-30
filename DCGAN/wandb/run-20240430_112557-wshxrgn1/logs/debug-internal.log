@@ -1,0 +1,1477 @@
+2024-04-30 11:26:02,197 INFO    StreamThr :104539 [internal.py:wandb_internal():86] W&B internal server running at pid: 104539, started at: 2024-04-30 11:26:02.195493
+2024-04-30 11:26:02,200 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status
+2024-04-30 11:26:02,203 INFO    WriterThread:104539 [datastore.py:open_for_write():87] open: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/run-wshxrgn1.wandb
+2024-04-30 11:26:02,209 DEBUG   SenderThread:104539 [sender.py:send():379] send: header
+2024-04-30 11:26:02,209 DEBUG   SenderThread:104539 [sender.py:send():379] send: run
+2024-04-30 11:26:02,635 INFO    SenderThread:104539 [dir_watcher.py:__init__():211] watching files in: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files
+2024-04-30 11:26:02,635 INFO    SenderThread:104539 [sender.py:_start_run_threads():1124] run started: wshxrgn1 with start time 1714469161.248361
+2024-04-30 11:26:02,667 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: check_version
+2024-04-30 11:26:02,667 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: check_version
+2024-04-30 11:26:02,876 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: run_start
+2024-04-30 11:26:02,879 DEBUG   HandlerThread:104539 [system_info.py:__init__():26] System info init
+2024-04-30 11:26:02,879 DEBUG   HandlerThread:104539 [system_info.py:__init__():41] System info init done
+2024-04-30 11:26:02,879 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:26:02,879 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:26:02,882 INFO    HandlerThread:104539 [system_monitor.py:probe():214] Collecting system info
+2024-04-30 11:26:02,882 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:26:02,884 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:26:02,886 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started memory monitoring
+2024-04-30 11:26:02,889 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started network monitoring
+2024-04-30 11:26:02,912 DEBUG   HandlerThread:104539 [system_info.py:probe():150] Probing system
+2024-04-30 11:26:02,913 DEBUG   HandlerThread:104539 [system_info.py:_probe_git():135] Probing git
+2024-04-30 11:26:02,923 DEBUG   HandlerThread:104539 [system_info.py:_probe_git():143] Probing git done
+2024-04-30 11:26:02,923 DEBUG   HandlerThread:104539 [system_info.py:probe():198] Probing system done
+2024-04-30 11:26:02,923 DEBUG   HandlerThread:104539 [system_monitor.py:probe():223] {'os': 'Linux-6.5.0-28-generic-x86_64-with-glibc2.35', 'python': '3.10.12', 'heartbeatAt': '2024-04-30T09:26:02.912253', 'startedAt': '2024-04-30T09:25:57.650923', 'docker': None, 'cuda': None, 'args': (), 'state': 'running', 'program': '<python with no main file>', 'codePathLocal': None, 'git': {'remote': 'https://github.com/Houda222/SYN-MTGAN.git', 'commit': 'b8ec378fc64544496c26534880ffa54160f12c8e'}, 'email': 'houda.ghallab@imt-atlantique.net', 'root': '/home/hghallab/Dvlp/GANs', 'host': 'hghallab', 'username': 'hghallab', 'executable': '/bin/python3', 'cpu_count': 4, 'cpu_count_logical': 8, 'cpu_freq': {'current': 899.955375, 'min': 400.0, 'max': 4500.0}, 'cpu_freq_per_core': [{'current': 900.035, 'min': 400.0, 'max': 4500.0}, {'current': 900.001, 'min': 400.0, 'max': 4500.0}, {'current': 899.996, 'min': 400.0, 'max': 4500.0}, {'current': 900.058, 'min': 400.0, 'max': 4500.0}, {'current': 900.02, 'min': 400.0, 'max': 4500.0}, {'current': 899.966, 'min': 400.0, 'max': 4500.0}, {'current': 899.985, 'min': 400.0, 'max': 4500.0}, {'current': 900.076, 'min': 400.0, 'max': 4500.0}], 'disk': {'/': {'total': 136.6944694519043, 'used': 81.89105224609375}}, 'memory': {'total': 31.207508087158203}}
+2024-04-30 11:26:02,923 INFO    HandlerThread:104539 [system_monitor.py:probe():224] Finished collecting system info
+2024-04-30 11:26:02,923 INFO    HandlerThread:104539 [system_monitor.py:probe():227] Publishing system info
+2024-04-30 11:26:02,924 INFO    HandlerThread:104539 [system_monitor.py:probe():229] Finished publishing system info
+2024-04-30 11:26:02,925 DEBUG   SenderThread:104539 [sender.py:send():379] send: files
+2024-04-30 11:26:02,925 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-metadata.json with policy now
+2024-04-30 11:26:03,100 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: python_packages
+2024-04-30 11:26:03,101 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: python_packages
+2024-04-30 11:26:03,101 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:26:03,102 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:26:03,104 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:26:03,104 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:26:03,104 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:26:03,104 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:26:03,105 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:26:03,105 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:26:03,105 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:26:03,105 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined disk monitor
+2024-04-30 11:26:03,105 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined memory monitor
+2024-04-30 11:26:03,106 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined network monitor
+2024-04-30 11:26:03,106 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:26:03,111 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:26:03,111 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:26:03,111 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:26:03,111 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:26:03,112 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:26:03,112 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:26:03,112 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started memory monitoring
+2024-04-30 11:26:03,113 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started network monitoring
+2024-04-30 11:26:03,152 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:26:03,152 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:26:03,152 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:26:03,152 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:26:03,152 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:26:03,153 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:26:03,153 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined disk monitor
+2024-04-30 11:26:03,153 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined memory monitor
+2024-04-30 11:26:03,153 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:26:03,153 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined network monitor
+2024-04-30 11:26:03,154 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:26:03,155 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:26:03,155 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:26:03,155 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:26:03,155 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:26:03,155 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:26:03,156 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started memory monitoring
+2024-04-30 11:26:03,157 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started network monitoring
+2024-04-30 11:26:03,177 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:26:03,177 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:26:03,177 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:26:03,177 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:26:03,178 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:26:03,178 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:26:03,178 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined disk monitor
+2024-04-30 11:26:03,178 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:26:03,178 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined memory monitor
+2024-04-30 11:26:03,179 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined network monitor
+2024-04-30 11:26:03,184 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:26:03,184 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:26:03,184 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:26:03,185 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:26:03,185 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:26:03,185 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:26:03,186 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started memory monitoring
+2024-04-30 11:26:03,187 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started network monitoring
+2024-04-30 11:26:03,188 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:26:03,188 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:26:03,189 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:26:03,190 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:26:03,191 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:26:03,192 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:26:03,192 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:26:03,193 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined disk monitor
+2024-04-30 11:26:03,193 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined memory monitor
+2024-04-30 11:26:03,193 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined network monitor
+2024-04-30 11:26:03,205 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:26:03,205 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:26:03,205 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:26:03,205 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:26:03,206 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:26:03,206 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:26:03,206 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started memory monitoring
+2024-04-30 11:26:03,207 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started network monitoring
+2024-04-30 11:26:03,489 DEBUG   SenderThread:104539 [sender.py:send():379] send: telemetry
+2024-04-30 11:26:03,489 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:26:03,489 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:26:03,489 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:26:03,490 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:26:03,490 DEBUG   SenderThread:104539 [sender.py:send():379] send: telemetry
+2024-04-30 11:26:03,526 INFO    wandb-upload_0:104539 [upload_job.py:push():131] Uploaded file /tmp/tmpc5a6udmjwandb/a6jqa46b-wandb-metadata.json
+2024-04-30 11:26:03,636 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:03,636 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-metadata.json
+2024-04-30 11:26:03,636 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/requirements.txt
+2024-04-30 11:26:03,919 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:03,920 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:03,920 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:03,920 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:04,560 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:04,560 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:04,560 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:04,561 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:04,635 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_created():271] file/dir created: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:05,095 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:05,096 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:05,096 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:05,097 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:05,635 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:05,636 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:05,762 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:05,763 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:05,763 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:05,763 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:06,333 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:06,334 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:06,334 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:06,334 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:06,636 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:06,946 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:06,947 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:06,947 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:06,947 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:07,487 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:07,487 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:07,487 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:07,488 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:26:07,489 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:07,636 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:07,636 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:08,037 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:08,038 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:08,038 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:08,039 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:08,636 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:08,704 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:08,705 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:08,705 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:08,705 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:09,270 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:09,271 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:09,271 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:09,271 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:09,637 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:09,637 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:09,917 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:09,918 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:09,918 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:09,919 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:10,379 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:10,379 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:10,380 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:10,380 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:10,395 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:10,395 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:10,396 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:10,396 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:10,403 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:10,404 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:10,404 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:10,405 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:10,448 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:10,449 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:10,449 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:10,449 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:10,637 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:10,875 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:10,899 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:10,901 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:10,903 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:11,465 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:11,466 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:11,467 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:11,469 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:11,637 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:11,637 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:12,023 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:12,024 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:12,024 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:12,027 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:12,637 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:12,695 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:12,696 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:12,696 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:12,696 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:26:12,699 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:13,376 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:13,377 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:13,377 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:13,378 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:13,638 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:13,638 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:14,057 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:14,057 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:14,057 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:14,059 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:14,638 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:14,754 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:14,755 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:14,755 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:14,758 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:15,389 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:15,390 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:15,390 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:15,391 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:15,638 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:15,639 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:15,968 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:15,969 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:15,969 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:15,970 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:16,592 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:16,593 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:16,593 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:16,595 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:16,639 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:17,220 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:17,221 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:17,222 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:17,223 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:17,307 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:17,307 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:17,307 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:17,308 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:17,329 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:17,330 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:17,331 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:17,331 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:17,341 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:17,341 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:17,342 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:17,342 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:17,350 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:17,351 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:17,352 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:17,352 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:17,639 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:17,639 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:17,836 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:17,859 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:17,862 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:17,862 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:26:17,866 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:18,101 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:26:18,101 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:26:18,101 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:26:18,451 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:18,452 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:18,452 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:18,454 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:18,639 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:19,271 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:19,272 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:19,273 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:19,275 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:19,640 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:19,640 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:19,889 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:19,890 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:19,890 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:19,893 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:20,534 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:20,535 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:20,535 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:20,537 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:20,640 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:21,190 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:21,191 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:21,191 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:21,194 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:21,640 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:21,641 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:21,828 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:21,829 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:21,829 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:21,832 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:22,466 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:22,467 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:22,468 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:22,470 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:22,640 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:23,133 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:23,134 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:23,134 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:23,134 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:26:23,137 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:23,641 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:23,641 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:23,918 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:23,919 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:23,919 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:23,922 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:24,551 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,552 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:24,553 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:24,555 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:24,641 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:24,685 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,685 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,685 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,686 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,700 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,701 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,702 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,702 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,708 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,709 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,709 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,710 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,715 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,715 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,717 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,718 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,719 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,719 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,720 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,720 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,726 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,726 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,727 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,727 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,733 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,734 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,734 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,735 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,748 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,748 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,749 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,749 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,754 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:24,754 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:25,190 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:25,215 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:25,226 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:25,236 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:25,641 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:25,641 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:25,802 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:25,803 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:25,803 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:25,808 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:26,422 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:26,423 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:26,423 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:26,428 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:26,642 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:27,028 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:27,028 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:27,029 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:27,034 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:27,642 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:27,642 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:27,658 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:27,659 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:27,659 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:27,664 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:28,282 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:28,283 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:28,283 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:28,283 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:26:28,288 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:28,642 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:29,079 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:29,080 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:29,080 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:29,085 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:29,643 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:29,643 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:29,723 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:29,724 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:29,725 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:29,729 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:30,381 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:30,382 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:30,382 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:30,387 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:30,643 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:31,065 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:31,066 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:31,067 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:31,069 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:31,643 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:31,643 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:31,784 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:31,785 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:31,785 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:31,788 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:31,964 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:31,964 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:31,965 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:31,965 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:31,980 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:31,980 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:31,980 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:31,981 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:31,988 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:31,988 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:31,988 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:31,989 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:31,994 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:31,994 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:31,995 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:31,995 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:32,402 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:32,423 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:32,425 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:32,429 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:32,643 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:33,045 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:33,046 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:33,046 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:33,049 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:33,101 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:26:33,101 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:26:33,102 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:26:33,330 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:26:33,644 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:33,644 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/config.yaml
+2024-04-30 11:26:33,644 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:33,813 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:33,813 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:33,813 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:33,819 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:34,486 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:34,487 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:34,487 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:34,492 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:34,644 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:35,121 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:35,122 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:35,123 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:35,128 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:35,645 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:35,645 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:35,855 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:35,856 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:35,856 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:35,858 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:36,491 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:36,492 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:36,492 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:36,497 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:36,645 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:37,166 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:37,167 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:37,167 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:37,170 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:37,646 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:37,646 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:37,873 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:37,874 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:37,874 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:37,879 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:38,492 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:38,493 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:38,493 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:38,498 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:38,646 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:39,307 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:39,308 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:39,308 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:39,310 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:26:39,311 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:39,582 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:39,582 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:39,582 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:39,583 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:39,605 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:39,606 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:39,606 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:39,607 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:39,617 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:39,617 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:39,625 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:39,625 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:39,634 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:39,634 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:39,635 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:39,636 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:39,646 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:39,646 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:39,969 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:39,992 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:39,994 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:39,998 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:40,630 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:40,631 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:40,631 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:40,636 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:40,646 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:41,366 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:41,367 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:41,368 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:41,373 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:41,647 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:41,647 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:42,107 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:42,108 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:42,108 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:42,111 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:42,647 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:42,787 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:42,788 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:42,788 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:42,793 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:43,391 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:43,392 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:43,392 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:43,398 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:43,647 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:43,648 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:44,129 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:44,130 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:44,131 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:44,134 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:44,647 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:44,749 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:44,750 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:44,750 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:44,753 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:26:44,754 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:45,360 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:45,361 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:45,361 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:45,364 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:45,648 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:45,648 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:45,979 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:45,980 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:45,980 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:45,983 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:46,648 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:46,653 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:46,654 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:46,654 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:46,659 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:46,974 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:46,974 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:46,975 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:46,975 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:46,998 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:46,999 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:46,999 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:46,999 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,009 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,010 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,010 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,010 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,019 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,019 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,021 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,022 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,023 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,023 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,024 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,024 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,031 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,032 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,032 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,033 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,042 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,043 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,043 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,043 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,063 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,063 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,064 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,064 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,068 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,068 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,376 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:47,397 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:47,405 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:47,409 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:47,648 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:47,649 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:48,060 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:48,061 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:48,061 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:48,063 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:48,101 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:26:48,101 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:26:48,103 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:26:48,649 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:48,699 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:48,700 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:48,700 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:48,703 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:49,519 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:49,520 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:49,520 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:49,523 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:49,649 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:49,649 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:50,269 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:50,270 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:50,270 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:50,270 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:26:50,272 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:50,650 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:51,017 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:51,018 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:51,018 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:51,021 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:51,650 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:51,650 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:51,780 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:51,781 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:51,782 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:51,786 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:52,492 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:52,493 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:52,493 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:52,497 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:52,650 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:53,292 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:53,293 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:53,293 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:53,298 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:53,651 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:53,651 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:54,034 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:54,035 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:54,035 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:54,040 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:54,651 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:54,871 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:54,872 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:54,872 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:54,877 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:55,414 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:55,415 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:55,415 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:55,415 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:55,430 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:55,430 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:55,431 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:55,431 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:55,436 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:55,436 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:55,437 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:55,437 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:55,441 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:55,441 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:55,442 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:55,442 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:55,651 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:55,652 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:55,698 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:55,720 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:55,724 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:55,724 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:26:55,732 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:56,449 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:56,450 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:56,451 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:56,456 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:56,652 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:57,365 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:57,365 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:57,366 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:57,369 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:57,652 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:57,652 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:58,154 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:58,155 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:58,155 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:58,159 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:58,652 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:58,928 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:58,929 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:58,929 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:58,935 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:26:59,653 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:26:59,653 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:26:59,775 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:26:59,777 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:26:59,777 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:26:59,779 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:27:00,641 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:00,642 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:27:00,642 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:27:00,645 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:27:00,653 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:27:01,555 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:01,556 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:27:01,557 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:27:01,562 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:27:01,562 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:27:01,653 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:27:01,653 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:27:02,376 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:02,378 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:27:02,378 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:27:02,384 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:27:02,654 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:27:03,102 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:27:03,102 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:27:03,103 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:27:03,175 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:03,207 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:27:03,274 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:27:03,275 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:27:03,278 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:27:03,278 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:27:03,654 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:27:03,654 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:27:04,036 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:04,037 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:27:04,037 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:27:04,039 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:27:04,590 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:04,590 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:04,590 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:04,591 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:04,604 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:04,605 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:04,605 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:04,606 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:04,611 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:04,611 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:04,612 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:04,612 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:04,616 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:04,616 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:04,617 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:04,617 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:04,654 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:27:04,860 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:04,868 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:27:04,870 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:27:04,873 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:27:05,646 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:05,647 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:27:05,647 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:27:05,654 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:27:05,655 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:27:05,655 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:27:06,421 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:06,422 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:27:06,422 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:27:06,428 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:27:06,655 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:27:07,429 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:27:07,452 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:07,453 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:27:07,454 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:27:07,459 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:27:07,655 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:27:07,656 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:27:08,289 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:08,290 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:27:08,290 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:27:08,296 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:27:08,656 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:27:09,078 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:09,079 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:27:09,080 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:27:09,082 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:27:09,656 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:27:09,656 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:27:09,891 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:09,892 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:27:09,892 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:27:09,894 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:27:10,656 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:27:10,708 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:10,709 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:27:10,710 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:27:10,715 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:27:11,552 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:11,553 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:27:11,554 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:27:11,559 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:27:11,657 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:27:11,657 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:27:12,313 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:12,314 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:27:12,314 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:27:12,317 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:27:12,657 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:27:13,059 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,060 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:27:13,060 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:27:13,060 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:27:13,066 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:27:13,623 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,623 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,623 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,624 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,644 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,645 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,646 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,646 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,654 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,655 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,655 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,655 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,657 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:27:13,658 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:27:13,661 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,661 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,663 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,663 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,664 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,665 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,665 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,665 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,670 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,671 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,671 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,671 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,679 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,679 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,680 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,680 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,700 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,700 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,701 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,701 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,707 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:13,708 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:14,073 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: partial_history
+2024-04-30 11:27:14,080 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:27:14,080 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:27:14,080 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:27:14,080 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:27:14,080 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:27:14,080 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:27:14,081 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined disk monitor
+2024-04-30 11:27:14,081 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined memory monitor
+2024-04-30 11:27:14,081 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined network monitor
+2024-04-30 11:27:14,099 DEBUG   SenderThread:104539 [sender.py:send():379] send: history
+2024-04-30 11:27:14,102 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: summary_record
+2024-04-30 11:27:14,104 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:27:14,105 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:27:14,658 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:27:15,658 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:27:18,102 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:27:18,103 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:27:18,106 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:27:18,336 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:27:23,338 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:27:28,339 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:27:33,102 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:27:33,103 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:27:33,145 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:27:34,273 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:27:39,275 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:27:44,276 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:27:48,103 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:27:48,104 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:27:48,145 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:27:49,332 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:27:54,334 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:27:59,336 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:28:03,105 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:28:03,105 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:28:03,106 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:28:05,304 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:28:10,305 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:28:15,307 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:28:18,103 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:28:18,104 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:28:18,145 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:28:21,281 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:28:26,283 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:28:31,285 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:28:33,103 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:28:33,105 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:28:33,145 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:28:37,278 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:28:42,280 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:28:47,281 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:28:48,103 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:28:48,104 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:28:48,145 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:28:52,283 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:28:57,285 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:29:02,286 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:29:03,104 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:29:03,105 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:29:03,145 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:29:08,282 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:29:13,283 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:29:18,104 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:29:18,105 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:29:18,145 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:29:18,334 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:29:23,336 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:29:28,337 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:29:33,106 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:29:33,107 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:29:33,108 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:29:34,260 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:29:39,262 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:29:44,264 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:29:48,106 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:29:48,106 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:29:48,149 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:29:49,288 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:29:54,289 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:29:59,290 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:30:03,107 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:30:03,107 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:30:03,108 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:30:04,396 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:30:09,397 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:30:14,398 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:30:18,107 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:30:18,108 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:30:18,110 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:30:20,298 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:30:25,301 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:30:30,303 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:30:33,105 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:30:33,106 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:30:33,149 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:30:36,289 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:30:41,291 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:30:46,293 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:30:48,106 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:30:48,107 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:30:48,108 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:30:51,353 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:30:56,354 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:31:01,356 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:31:03,107 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:31:03,107 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:31:03,109 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:31:07,266 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:31:12,267 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:31:17,268 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:31:18,108 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:31:18,110 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:31:18,111 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:31:23,266 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:31:28,268 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:31:33,108 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:31:33,110 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:31:33,111 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:31:33,351 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:31:38,352 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:31:43,353 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:31:48,106 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:31:48,106 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:31:48,148 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:31:49,271 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:31:54,273 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:31:59,274 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:32:03,106 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:32:03,106 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:32:03,148 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:32:04,330 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:32:09,333 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:32:14,334 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:32:18,108 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:32:18,109 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:32:18,153 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:32:20,285 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:32:25,287 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:32:30,289 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:32:33,108 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:32:33,109 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:32:33,149 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:32:36,268 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:32:41,269 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:32:43,903 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:32:43,903 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:32:43,903 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:32:43,903 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:32:43,903 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:32:43,904 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:32:43,904 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started memory monitoring
+2024-04-30 11:32:43,905 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started network monitoring
+2024-04-30 11:32:44,032 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:32:44,033 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:32:44,033 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:32:44,033 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:32:44,033 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined disk monitor
+2024-04-30 11:32:44,033 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:32:44,033 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined memory monitor
+2024-04-30 11:32:44,033 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:32:44,034 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined network monitor
+2024-04-30 11:32:44,034 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:32:44,035 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:32:47,036 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:32:48,107 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: stop_status
+2024-04-30 11:32:48,107 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:32:48,107 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: stop_status
+2024-04-30 11:32:53,002 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:32:57,640 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:32:57,641 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:32:57,641 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:32:57,641 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:32:57,641 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:32:57,642 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:32:57,642 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started memory monitoring
+2024-04-30 11:32:57,643 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started network monitoring
+2024-04-30 11:32:58,040 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:33:00,904 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:33:01,682 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:33:01,682 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:33:01,683 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:33:01,683 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:33:01,683 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:33:01,683 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:33:01,683 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:33:01,683 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined disk monitor
+2024-04-30 11:33:01,683 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined memory monitor
+2024-04-30 11:33:01,683 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined network monitor
+2024-04-30 11:33:01,693 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:33:01,693 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:33:01,693 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:33:01,693 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:33:01,693 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:33:01,694 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:33:01,694 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started memory monitoring
+2024-04-30 11:33:01,697 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started network monitoring
+2024-04-30 11:33:01,698 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:33:01,698 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:33:01,698 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:33:01,699 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:33:01,700 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:33:01,700 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:33:01,700 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:33:01,701 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined disk monitor
+2024-04-30 11:33:01,701 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined memory monitor
+2024-04-30 11:33:01,702 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined network monitor
+2024-04-30 11:33:01,702 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:33:01,703 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:33:01,703 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:33:01,703 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:33:01,703 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:33:01,703 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:33:01,704 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:33:01,704 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started memory monitoring
+2024-04-30 11:33:01,705 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started network monitoring
+2024-04-30 11:33:01,709 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:33:01,710 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:33:01,710 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:33:01,710 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:33:01,710 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:33:01,710 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:33:01,711 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:33:01,711 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined disk monitor
+2024-04-30 11:33:01,711 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined memory monitor
+2024-04-30 11:33:01,712 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined network monitor
+2024-04-30 11:33:01,713 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:33:01,718 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:33:01,718 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:33:01,718 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:33:01,718 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:33:01,719 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:33:01,719 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:33:01,720 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started memory monitoring
+2024-04-30 11:33:01,720 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:33:01,720 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:33:01,720 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:33:01,727 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:33:01,727 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined disk monitor
+2024-04-30 11:33:01,727 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined memory monitor
+2024-04-30 11:33:01,728 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined network monitor
+2024-04-30 11:33:01,720 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started network monitoring
+2024-04-30 11:33:01,728 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:33:01,728 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:33:01,728 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:33:01,730 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:33:01,736 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:33:01,736 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:33:01,736 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:33:01,740 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:33:01,742 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:33:01,742 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:33:01,742 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:33:01,742 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:33:01,743 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:33:01,743 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:33:01,743 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:33:01,743 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:33:01,743 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:33:01,747 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:33:01,747 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:33:01,747 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:33:01,747 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:33:01,752 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:33:01,752 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:33:01,752 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:33:01,752 WARNING HandlerThread:104539 [interfaces.py:finish():207] Failed to finish cpu monitoring: cannot join thread before it is started
+2024-04-30 11:33:01,756 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:33:01,756 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:33:01,756 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:33:01,756 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:33:01,763 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:33:01,763 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:33:01,763 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:33:01,763 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:33:01,763 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:33:01,765 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:33:01,765 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:33:01,765 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:33:01,766 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:33:01,767 WARNING HandlerThread:104539 [interfaces.py:finish():207] Failed to finish disk monitoring: cannot join thread before it is started
+2024-04-30 11:33:01,772 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:33:01,772 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:33:01,772 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:33:01,772 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:33:01,774 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:33:01,774 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:33:01,774 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:33:01,774 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:33:01,774 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:33:01,775 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:33:01,775 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:33:01,775 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:33:01,775 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:33:01,775 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:33:01,776 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:33:01,776 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started memory monitoring
+2024-04-30 11:33:01,776 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:33:01,777 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:33:01,777 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:33:01,778 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined disk monitor
+2024-04-30 11:33:01,778 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined memory monitor
+2024-04-30 11:33:01,779 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:33:01,782 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:33:01,782 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:33:01,782 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:33:01,782 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:33:01,783 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:33:01,783 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:33:01,784 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:33:01,784 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:33:01,784 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:33:01,784 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:33:01,784 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started memory monitoring
+2024-04-30 11:33:01,785 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:33:01,785 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:33:01,785 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:33:01,786 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined disk monitor
+2024-04-30 11:33:01,786 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined memory monitor
+2024-04-30 11:33:01,787 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:33:01,790 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:33:01,791 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:33:01,791 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:33:01,791 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:33:01,791 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:33:01,791 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:33:01,792 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started memory monitoring
+2024-04-30 11:33:01,792 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started network monitoring
+2024-04-30 11:33:01,793 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:33:01,793 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:33:01,793 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:33:01,793 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:33:01,793 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:33:01,793 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:33:01,794 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:33:01,796 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined disk monitor
+2024-04-30 11:33:01,796 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined memory monitor
+2024-04-30 11:33:01,796 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined network monitor
+2024-04-30 11:33:01,796 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:33:01,799 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:33:01,799 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:33:01,800 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:33:01,800 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:33:01,800 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:33:01,800 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:33:01,800 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started memory monitoring
+2024-04-30 11:33:01,801 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started network monitoring
+2024-04-30 11:33:01,803 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:33:01,803 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:33:01,803 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:33:01,803 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:33:01,803 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:33:01,803 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:33:01,803 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:33:01,804 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined disk monitor
+2024-04-30 11:33:01,804 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined memory monitor
+2024-04-30 11:33:01,804 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined network monitor
+2024-04-30 11:33:01,805 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:33:01,809 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:33:01,809 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:33:01,809 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:33:01,809 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:33:01,810 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:33:01,810 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:33:01,811 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started memory monitoring
+2024-04-30 11:33:01,811 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started network monitoring
+2024-04-30 11:33:01,812 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:33:01,812 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:33:01,812 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:33:01,812 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:33:01,812 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:33:01,812 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:33:01,813 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:33:01,814 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined disk monitor
+2024-04-30 11:33:01,814 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined memory monitor
+2024-04-30 11:33:01,814 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined network monitor
+2024-04-30 11:33:01,815 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:33:01,818 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:33:01,818 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:33:01,818 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:33:01,818 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:33:01,818 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:33:01,818 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:33:01,819 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started memory monitoring
+2024-04-30 11:33:01,819 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started network monitoring
+2024-04-30 11:33:01,892 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:33:01,892 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:33:01,892 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:33:01,892 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:33:01,892 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:33:01,893 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined disk monitor
+2024-04-30 11:33:01,893 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined memory monitor
+2024-04-30 11:33:01,894 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined network monitor
+2024-04-30 11:33:01,893 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:33:01,894 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:33:01,895 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:33:01,924 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:33:01,924 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:33:01,924 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:33:01,924 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:33:01,924 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:33:01,926 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:33:01,928 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started memory monitoring
+2024-04-30 11:33:01,941 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:33:01,941 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:33:01,941 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started network monitoring
+2024-04-30 11:33:01,941 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:33:01,946 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:33:01,946 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:33:01,947 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:33:01,957 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:33:01,957 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined disk monitor
+2024-04-30 11:33:01,957 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined memory monitor
+2024-04-30 11:33:01,957 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined network monitor
+2024-04-30 11:33:01,957 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:33:01,958 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:33:01,958 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:33:01,958 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:33:01,958 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:33:01,958 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:33:01,959 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started memory monitoring
+2024-04-30 11:33:01,960 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started network monitoring
+2024-04-30 11:33:02,018 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:33:02,018 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:33:02,018 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:33:02,018 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:33:02,019 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:33:02,019 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:33:02,019 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined disk monitor
+2024-04-30 11:33:02,019 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:33:02,019 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined memory monitor
+2024-04-30 11:33:02,020 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined network monitor
+2024-04-30 11:33:02,020 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:33:02,025 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:33:02,026 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:33:02,026 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:33:02,026 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:33:02,026 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:33:02,029 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:33:02,029 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:33:02,030 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:33:02,030 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:33:02,030 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:33:02,030 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started memory monitoring
+2024-04-30 11:33:02,031 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:33:02,031 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:33:02,031 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:33:02,033 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined disk monitor
+2024-04-30 11:33:02,033 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined memory monitor
+2024-04-30 11:33:02,033 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:33:02,038 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:33:02,038 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:33:02,038 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:33:02,039 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:33:02,039 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:33:02,039 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:33:02,039 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started memory monitoring
+2024-04-30 11:33:02,040 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started network monitoring
+2024-04-30 11:33:02,042 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:33:02,043 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:33:02,043 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:33:02,043 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:33:02,043 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:33:02,043 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:33:02,044 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:33:02,047 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined disk monitor
+2024-04-30 11:33:02,047 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined memory monitor
+2024-04-30 11:33:02,047 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined network monitor
+2024-04-30 11:33:02,047 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:33:02,050 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:33:02,050 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:33:02,050 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:33:02,050 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:33:02,050 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:33:02,051 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:33:02,051 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started memory monitoring
+2024-04-30 11:33:02,051 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started network monitoring
+2024-04-30 11:33:02,052 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: pause
+2024-04-30 11:33:02,052 INFO    HandlerThread:104539 [handler.py:handle_request_pause():708] stopping system metrics thread
+2024-04-30 11:33:02,053 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:33:02,053 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:33:02,053 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:33:02,053 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:33:02,053 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:33:02,055 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined disk monitor
+2024-04-30 11:33:02,055 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined memory monitor
+2024-04-30 11:33:02,055 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined network monitor
+2024-04-30 11:33:02,056 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:33:02,059 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: resume
+2024-04-30 11:33:02,059 INFO    HandlerThread:104539 [handler.py:handle_request_resume():699] starting system metrics thread
+2024-04-30 11:33:02,059 INFO    HandlerThread:104539 [system_monitor.py:start():194] Starting system monitor
+2024-04-30 11:33:02,059 INFO    SystemMonitor:104539 [system_monitor.py:_start():158] Starting system asset monitoring threads
+2024-04-30 11:33:02,059 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started cpu monitoring
+2024-04-30 11:33:02,060 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started disk monitoring
+2024-04-30 11:33:02,060 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started memory monitoring
+2024-04-30 11:33:02,061 INFO    SystemMonitor:104539 [interfaces.py:start():190] Started network monitoring
+2024-04-30 11:33:02,073 DEBUG   SenderThread:104539 [sender.py:send():379] send: telemetry
+2024-04-30 11:33:02,074 DEBUG   SenderThread:104539 [sender.py:send():379] send: exit
+2024-04-30 11:33:02,074 INFO    SenderThread:104539 [sender.py:send_exit():586] handling exit code: 0
+2024-04-30 11:33:02,074 INFO    SenderThread:104539 [sender.py:send_exit():588] handling runtime: 75
+2024-04-30 11:33:02,077 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:33:02,077 INFO    SenderThread:104539 [sender.py:send_exit():594] send defer
+2024-04-30 11:33:02,077 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: defer
+2024-04-30 11:33:02,077 INFO    HandlerThread:104539 [handler.py:handle_request_defer():172] handle defer: 0
+2024-04-30 11:33:02,078 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: defer
+2024-04-30 11:33:02,078 INFO    SenderThread:104539 [sender.py:send_request_defer():610] handle sender defer: 0
+2024-04-30 11:33:02,078 INFO    SenderThread:104539 [sender.py:transition_state():614] send defer: 1
+2024-04-30 11:33:02,078 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: defer
+2024-04-30 11:33:02,078 INFO    HandlerThread:104539 [handler.py:handle_request_defer():172] handle defer: 1
+2024-04-30 11:33:02,078 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: defer
+2024-04-30 11:33:02,078 INFO    SenderThread:104539 [sender.py:send_request_defer():610] handle sender defer: 1
+2024-04-30 11:33:02,078 INFO    SenderThread:104539 [sender.py:transition_state():614] send defer: 2
+2024-04-30 11:33:02,078 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: defer
+2024-04-30 11:33:02,078 INFO    HandlerThread:104539 [handler.py:handle_request_defer():172] handle defer: 2
+2024-04-30 11:33:02,078 INFO    HandlerThread:104539 [system_monitor.py:finish():203] Stopping system monitor
+2024-04-30 11:33:02,078 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():172] Starting system metrics aggregation loop
+2024-04-30 11:33:02,079 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined cpu monitor
+2024-04-30 11:33:02,079 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():179] Finished system metrics aggregation loop
+2024-04-30 11:33:02,079 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined disk monitor
+2024-04-30 11:33:02,079 DEBUG   SystemMonitor:104539 [system_monitor.py:_start():183] Publishing last batch of metrics
+2024-04-30 11:33:02,079 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined memory monitor
+2024-04-30 11:33:02,080 INFO    HandlerThread:104539 [interfaces.py:finish():202] Joined network monitor
+2024-04-30 11:33:02,080 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: defer
+2024-04-30 11:33:02,080 INFO    SenderThread:104539 [sender.py:send_request_defer():610] handle sender defer: 2
+2024-04-30 11:33:02,080 INFO    SenderThread:104539 [sender.py:transition_state():614] send defer: 3
+2024-04-30 11:33:02,080 DEBUG   SenderThread:104539 [sender.py:send():379] send: stats
+2024-04-30 11:33:02,081 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: defer
+2024-04-30 11:33:02,081 INFO    HandlerThread:104539 [handler.py:handle_request_defer():172] handle defer: 3
+2024-04-30 11:33:02,081 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: defer
+2024-04-30 11:33:02,081 INFO    SenderThread:104539 [sender.py:send_request_defer():610] handle sender defer: 3
+2024-04-30 11:33:02,081 INFO    SenderThread:104539 [sender.py:transition_state():614] send defer: 4
+2024-04-30 11:33:02,081 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: defer
+2024-04-30 11:33:02,081 INFO    HandlerThread:104539 [handler.py:handle_request_defer():172] handle defer: 4
+2024-04-30 11:33:02,081 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: defer
+2024-04-30 11:33:02,081 INFO    SenderThread:104539 [sender.py:send_request_defer():610] handle sender defer: 4
+2024-04-30 11:33:02,082 INFO    SenderThread:104539 [sender.py:transition_state():614] send defer: 5
+2024-04-30 11:33:02,082 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: defer
+2024-04-30 11:33:02,082 INFO    HandlerThread:104539 [handler.py:handle_request_defer():172] handle defer: 5
+2024-04-30 11:33:02,088 DEBUG   SenderThread:104539 [sender.py:send():379] send: summary
+2024-04-30 11:33:02,093 INFO    SenderThread:104539 [sender.py:_save_file():1390] saving file wandb-summary.json with policy end
+2024-04-30 11:33:02,093 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: defer
+2024-04-30 11:33:02,093 INFO    SenderThread:104539 [sender.py:send_request_defer():610] handle sender defer: 5
+2024-04-30 11:33:02,093 INFO    SenderThread:104539 [sender.py:transition_state():614] send defer: 6
+2024-04-30 11:33:02,094 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: defer
+2024-04-30 11:33:02,094 INFO    HandlerThread:104539 [handler.py:handle_request_defer():172] handle defer: 6
+2024-04-30 11:33:02,094 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: defer
+2024-04-30 11:33:02,094 INFO    SenderThread:104539 [sender.py:send_request_defer():610] handle sender defer: 6
+2024-04-30 11:33:02,098 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: status_report
+2024-04-30 11:33:02,326 INFO    SenderThread:104539 [sender.py:transition_state():614] send defer: 7
+2024-04-30 11:33:02,327 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: defer
+2024-04-30 11:33:02,327 INFO    HandlerThread:104539 [handler.py:handle_request_defer():172] handle defer: 7
+2024-04-30 11:33:02,327 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: defer
+2024-04-30 11:33:02,327 INFO    SenderThread:104539 [sender.py:send_request_defer():610] handle sender defer: 7
+2024-04-30 11:33:02,904 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:33:02,905 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/config.yaml
+2024-04-30 11:33:02,905 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:33:03,074 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-30 11:33:03,905 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:33:04,906 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:33:05,730 INFO    SenderThread:104539 [sender.py:transition_state():614] send defer: 8
+2024-04-30 11:33:05,730 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: poll_exit
+2024-04-30 11:33:05,730 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: defer
+2024-04-30 11:33:05,730 INFO    HandlerThread:104539 [handler.py:handle_request_defer():172] handle defer: 8
+2024-04-30 11:33:05,731 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: defer
+2024-04-30 11:33:05,731 INFO    SenderThread:104539 [sender.py:send_request_defer():610] handle sender defer: 8
+2024-04-30 11:33:05,731 INFO    SenderThread:104539 [job_builder.py:build():318] Attempting to build job artifact
+2024-04-30 11:33:05,743 INFO    SenderThread:104539 [job_builder.py:_get_source_type():455] is repo sourced job
+2024-04-30 11:33:05,743 INFO    SenderThread:104539 [job_builder.py:_get_program_relpath():473] run is notebook based run
+2024-04-30 11:33:05,743 WARNING SenderThread:104539 [job_builder.py:_log_if_verbose():210] Source type is set to 'repo' but some required information is missing from the environment. A job will not be created from this run. See https://docs.wandb.ai/guides/launch/create-job
+2024-04-30 11:33:05,743 INFO    SenderThread:104539 [sender.py:transition_state():614] send defer: 9
+2024-04-30 11:33:05,743 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: defer
+2024-04-30 11:33:05,744 INFO    HandlerThread:104539 [handler.py:handle_request_defer():172] handle defer: 9
+2024-04-30 11:33:05,744 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: defer
+2024-04-30 11:33:05,744 INFO    SenderThread:104539 [sender.py:send_request_defer():610] handle sender defer: 9
+2024-04-30 11:33:05,744 INFO    SenderThread:104539 [dir_watcher.py:finish():358] shutting down directory watcher
+2024-04-30 11:33:05,906 INFO    Thread-61 :104539 [dir_watcher.py:_on_file_modified():288] file/dir modified: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:33:05,906 INFO    SenderThread:104539 [dir_watcher.py:finish():388] scan: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files
+2024-04-30 11:33:05,907 INFO    SenderThread:104539 [dir_watcher.py:finish():402] scan save: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/requirements.txt requirements.txt
+2024-04-30 11:33:05,907 INFO    SenderThread:104539 [dir_watcher.py:finish():402] scan save: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/config.yaml config.yaml
+2024-04-30 11:33:05,907 INFO    SenderThread:104539 [dir_watcher.py:finish():402] scan save: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json wandb-summary.json
+2024-04-30 11:33:05,907 INFO    SenderThread:104539 [dir_watcher.py:finish():402] scan save: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-metadata.json wandb-metadata.json
+2024-04-30 11:33:05,907 INFO    SenderThread:104539 [dir_watcher.py:finish():402] scan save: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log output.log
+2024-04-30 11:33:05,910 INFO    SenderThread:104539 [sender.py:transition_state():614] send defer: 10
+2024-04-30 11:33:05,912 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: defer
+2024-04-30 11:33:05,914 INFO    HandlerThread:104539 [handler.py:handle_request_defer():172] handle defer: 10
+2024-04-30 11:33:05,917 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: defer
+2024-04-30 11:33:05,917 INFO    SenderThread:104539 [sender.py:send_request_defer():610] handle sender defer: 10
+2024-04-30 11:33:05,917 INFO    SenderThread:104539 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-30 11:33:06,075 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-30 11:33:06,075 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: poll_exit
+2024-04-30 11:33:06,508 INFO    wandb-upload_0:104539 [upload_job.py:push():131] Uploaded file /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/requirements.txt
+2024-04-30 11:33:06,528 INFO    wandb-upload_3:104539 [upload_job.py:push():131] Uploaded file /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/output.log
+2024-04-30 11:33:06,538 INFO    wandb-upload_1:104539 [upload_job.py:push():131] Uploaded file /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/config.yaml
+2024-04-30 11:33:06,656 INFO    wandb-upload_2:104539 [upload_job.py:push():131] Uploaded file /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/files/wandb-summary.json
+2024-04-30 11:33:06,857 INFO    Thread-60 (_thread_body):104539 [sender.py:transition_state():614] send defer: 11
+2024-04-30 11:33:06,860 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: defer
+2024-04-30 11:33:06,861 INFO    HandlerThread:104539 [handler.py:handle_request_defer():172] handle defer: 11
+2024-04-30 11:33:06,862 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: defer
+2024-04-30 11:33:06,862 INFO    SenderThread:104539 [sender.py:send_request_defer():610] handle sender defer: 11
+2024-04-30 11:33:06,862 INFO    SenderThread:104539 [file_pusher.py:join():178] waiting for file pusher
+2024-04-30 11:33:06,863 INFO    SenderThread:104539 [sender.py:transition_state():614] send defer: 12
+2024-04-30 11:33:06,864 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: defer
+2024-04-30 11:33:06,864 INFO    HandlerThread:104539 [handler.py:handle_request_defer():172] handle defer: 12
+2024-04-30 11:33:06,865 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: defer
+2024-04-30 11:33:06,865 INFO    SenderThread:104539 [sender.py:send_request_defer():610] handle sender defer: 12
+2024-04-30 11:33:06,865 INFO    SenderThread:104539 [file_stream.py:finish():614] file stream finish called
+2024-04-30 11:33:07,076 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-30 11:33:07,800 INFO    SenderThread:104539 [file_stream.py:finish():618] file stream finish is done
+2024-04-30 11:33:07,801 INFO    SenderThread:104539 [sender.py:transition_state():614] send defer: 13
+2024-04-30 11:33:07,801 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: poll_exit
+2024-04-30 11:33:07,802 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: defer
+2024-04-30 11:33:07,802 INFO    HandlerThread:104539 [handler.py:handle_request_defer():172] handle defer: 13
+2024-04-30 11:33:07,803 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: defer
+2024-04-30 11:33:07,804 INFO    SenderThread:104539 [sender.py:send_request_defer():610] handle sender defer: 13
+2024-04-30 11:33:07,804 INFO    SenderThread:104539 [sender.py:transition_state():614] send defer: 14
+2024-04-30 11:33:07,804 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: defer
+2024-04-30 11:33:07,805 INFO    HandlerThread:104539 [handler.py:handle_request_defer():172] handle defer: 14
+2024-04-30 11:33:07,806 DEBUG   SenderThread:104539 [sender.py:send():379] send: final
+2024-04-30 11:33:07,806 DEBUG   SenderThread:104539 [sender.py:send():379] send: footer
+2024-04-30 11:33:07,806 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: defer
+2024-04-30 11:33:07,806 INFO    SenderThread:104539 [sender.py:send_request_defer():610] handle sender defer: 14
+2024-04-30 11:33:07,808 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: poll_exit
+2024-04-30 11:33:07,809 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: poll_exit
+2024-04-30 11:33:07,812 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: internal_messages
+2024-04-30 11:33:07,813 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: server_info
+2024-04-30 11:33:07,814 DEBUG   SenderThread:104539 [sender.py:send_request():406] send_request: server_info
+2024-04-30 11:33:07,860 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: get_summary
+2024-04-30 11:33:07,862 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: sampled_history
+2024-04-30 11:33:07,938 DEBUG   HandlerThread:104539 [handler.py:handle_request():146] handle_request: shutdown
+2024-04-30 11:33:07,938 INFO    HandlerThread:104539 [handler.py:finish():866] shutting down handler
+2024-04-30 11:33:08,814 INFO    WriterThread:104539 [datastore.py:close():296] close: /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_112557-wshxrgn1/run-wshxrgn1.wandb
+2024-04-30 11:33:08,937 INFO    SenderThread:104539 [sender.py:finish():1546] shutting down sender
+2024-04-30 11:33:08,938 INFO    SenderThread:104539 [file_pusher.py:finish():172] shutting down file pusher
+2024-04-30 11:33:08,938 INFO    SenderThread:104539 [file_pusher.py:join():178] waiting for file pusher

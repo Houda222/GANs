@@ -1,0 +1,421 @@
+
+Training ...
+Epoch [1 / 20] average loss generator vs. discrim.: 27.710049 vs. 0.013035
+Epoch [2 / 20] average loss generator vs. discrim.: 21.007032 vs. 0.000000
+Epoch [3 / 20] average loss generator vs. discrim.: 15.438773 vs. 0.000006
+Epoch [4 / 20] average loss generator vs. discrim.: 26.611786 vs. 2.301486
+Epoch [5 / 20] average loss generator vs. discrim.: 20.429369 vs. 0.010837
+Epoch [6 / 20] average loss generator vs. discrim.: 12.096468 vs. 0.000000
+Epoch [7 / 20] average loss generator vs. discrim.: 24.099260 vs. 0.688975
+Epoch [8 / 20] average loss generator vs. discrim.: 23.055401 vs. 0.000005
+Epoch [9 / 20] average loss generator vs. discrim.: 21.261120 vs. 0.000674
+Epoch [10 / 20] average loss generator vs. discrim.: 19.613241 vs. 0.002201
+Epoch [11 / 20] average loss generator vs. discrim.: 17.088011 vs. 0.000061
+/home/hghallab/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py:449: UserWarning: Length of split at index 1 is 0. This might result in an empty dataset.
+  warnings.warn(f"Length of split at index {i} is 0. "
+Number of parameters for generator: 12660814 and discriminator: 61378945
+Training ...
+Training ...
+Epoch [1 / 20] average loss generator vs. discrim.: 25.598816 vs. 0.747379
+Epoch [2 / 20] average loss generator vs. discrim.: 10.279804 vs. 0.001644
+Epoch [3 / 20] average loss generator vs. discrim.: 22.787361 vs. 0.044848
+Epoch [4 / 20] average loss generator vs. discrim.: 18.016216 vs. 0.000081
+Epoch [5 / 20] average loss generator vs. discrim.: 13.827511 vs. 0.002953
+Epoch [6 / 20] average loss generator vs. discrim.: 25.448299 vs. 4.834173
+Epoch [7 / 20] average loss generator vs. discrim.: 18.957037 vs. 0.806348
+Epoch [8 / 20] average loss generator vs. discrim.: 12.414379 vs. 0.020371
+Epoch [9 / 20] average loss generator vs. discrim.: 5.459353 vs. 0.003420
+Epoch [10 / 20] average loss generator vs. discrim.: 18.943352 vs. 1.254542
+Epoch [11 / 20] average loss generator vs. discrim.: 14.196079 vs. 0.017199
+Epoch [12 / 20] average loss generator vs. discrim.: 9.920877 vs. 0.064615
+Epoch [13 / 20] average loss generator vs. discrim.: 6.139917 vs. 0.020126
+Epoch [14 / 20] average loss generator vs. discrim.: 10.445312 vs. 0.042810
+Epoch [15 / 20] average loss generator vs. discrim.: 10.267138 vs. 0.000478
+Epoch [16 / 20] average loss generator vs. discrim.: 9.577155 vs. 0.011275
+Epoch [17 / 20] average loss generator vs. discrim.: 22.193098 vs. 1.162454
+Epoch [18 / 20] average loss generator vs. discrim.: 22.153267 vs. 0.048376
+Epoch [19 / 20] average loss generator vs. discrim.: 21.669289 vs. 0.164872
+Epoch [20 / 20] average loss generator vs. discrim.: 20.913828 vs. 0.000827
+Training complete in 0h 7m 53s
+Best Score: inf
+/home/hghallab/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py:449: UserWarning: Length of split at index 1 is 0. This might result in an empty dataset.
+  warnings.warn(f"Length of split at index {i} is 0. "
+cpu
+> SEEDING DONE
+Number of parameters for generator: 12660814 and discriminator: 61378945
+Training ...
+Epoch [1 / 50] average loss generator vs. discrim.: 20.348850 vs. 0.748437
+Epoch [2 / 50] average loss generator vs. discrim.: 9.865657 vs. 0.004409
+Epoch [3 / 50] average loss generator vs. discrim.: 13.311918 vs. 0.007103
+Epoch [4 / 50] average loss generator vs. discrim.: 10.850875 vs. 0.001458
+Epoch [5 / 50] average loss generator vs. discrim.: 24.379517 vs. 0.068124
+Epoch [6 / 50] average loss generator vs. discrim.: 20.938576 vs. 0.000000
+Epoch [7 / 50] average loss generator vs. discrim.: 19.458317 vs. 0.000000
+Epoch [8 / 50] average loss generator vs. discrim.: 10.634531 vs. 0.000414
+Epoch [9 / 50] average loss generator vs. discrim.: 24.329437 vs. 4.636344
+Epoch [10 / 50] average loss generator vs. discrim.: 21.181629 vs. 0.012294
+Epoch [11 / 50] average loss generator vs. discrim.: 17.565786 vs. 0.000002
+Epoch [12 / 50] average loss generator vs. discrim.: 11.899399 vs. 0.000002
+Epoch [13 / 50] average loss generator vs. discrim.: 17.218321 vs. 0.020772
+Epoch [14 / 50] average loss generator vs. discrim.: 17.790426 vs. 0.000001
+Epoch [15 / 50] average loss generator vs. discrim.: 15.848616 vs. 0.000001
+Epoch [16 / 50] average loss generator vs. discrim.: 10.269973 vs. 0.000049
+Epoch [17 / 50] average loss generator vs. discrim.: 23.355896 vs. 0.054214
+Epoch [18 / 50] average loss generator vs. discrim.: 23.450323 vs. 0.000003
+Epoch [19 / 50] average loss generator vs. discrim.: 23.204407 vs. 0.000018
+Epoch [20 / 50] average loss generator vs. discrim.: 22.968084 vs. 0.000050
+cpu
+> SEEDING DONE
+/home/hghallab/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py:449: UserWarning: Length of split at index 1 is 0. This might result in an empty dataset.
+  warnings.warn(f"Length of split at index {i} is 0. "
+Number of parameters for generator: 12660814 and discriminator: 61378945
+Generator(
+  (deconv1): ConvTranspose2d(100, 1024, kernel_size=(4, 4), stride=(1, 1))
+  (deconv1_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv2): ConvTranspose2d(1024, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv2_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv3): ConvTranspose2d(512, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv3_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv4): ConvTranspose2d(256, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv4_bn): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv5): ConvTranspose2d(128, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv5_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv6): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv6_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv7): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv7_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv8): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+)
+Discriminator(
+  (conv1): Conv2d(3, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2): Conv2d(128, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv3): Conv2d(256, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv3_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv4): Conv2d(512, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv4_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv5): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv5_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv6): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv6_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv7): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv7_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv8): Conv2d(1024, 1, kernel_size=(4, 4), stride=(2, 2))
+)
+Training ...
+Epoch [1 / 50] average loss generator vs. discrim.: 56.069515 vs. 1.966421
+Epoch [2 / 50] average loss generator vs. discrim.: 28.695892 vs. 0.000000
+Epoch [3 / 50] average loss generator vs. discrim.: 26.714558 vs. 0.000000
+Training ...
+Epoch [1 / 50] average loss generator vs. discrim.: 25.753876 vs. 0.000000
+Epoch [2 / 50] average loss generator vs. discrim.: 19.648298 vs. 0.000000
+Epoch [3 / 50] average loss generator vs. discrim.: 17.166750 vs. 0.000000
+Epoch [4 / 50] average loss generator vs. discrim.: 11.683508 vs. 0.000030
+Epoch [5 / 50] average loss generator vs. discrim.: 9.980482 vs. 0.000302
+Epoch [6 / 50] average loss generator vs. discrim.: 19.223454 vs. 0.014332
+Epoch [7 / 50] average loss generator vs. discrim.: 14.354238 vs. 0.000716
+Epoch [8 / 50] average loss generator vs. discrim.: 36.774265 vs. 0.046949
+Epoch [9 / 50] average loss generator vs. discrim.: 29.885738 vs. 0.000000
+Epoch [10 / 50] average loss generator vs. discrim.: 30.407831 vs. 0.000000
+Epoch [11 / 50] average loss generator vs. discrim.: 29.019993 vs. 0.000000
+Epoch [12 / 50] average loss generator vs. discrim.: 26.784410 vs. 0.000000
+Epoch [13 / 50] average loss generator vs. discrim.: 22.631237 vs. 0.000000
+Epoch [14 / 50] average loss generator vs. discrim.: 16.541086 vs. 0.000000
+Epoch [15 / 50] average loss generator vs. discrim.: 12.842970 vs. 0.000008
+Epoch [16 / 50] average loss generator vs. discrim.: 16.590429 vs. 0.005456
+Epoch [17 / 50] average loss generator vs. discrim.: 14.053898 vs. 0.000738
+Epoch [18 / 50] average loss generator vs. discrim.: 11.615034 vs. 0.000323
+Epoch [19 / 50] average loss generator vs. discrim.: 24.498760 vs. 0.007812
+Epoch [20 / 50] average loss generator vs. discrim.: 25.048389 vs. 0.000000
+Epoch [21 / 50] average loss generator vs. discrim.: 23.281292 vs. 0.000000
+Epoch [22 / 50] average loss generator vs. discrim.: 20.123386 vs. 0.000000
+Epoch [23 / 50] average loss generator vs. discrim.: 16.105354 vs. 0.000001
+Epoch [24 / 50] average loss generator vs. discrim.: 11.392082 vs. 0.000051
+Epoch [25 / 50] average loss generator vs. discrim.: 18.235281 vs. 0.004458
+Epoch [26 / 50] average loss generator vs. discrim.: 17.064653 vs. 0.000031
+Epoch [27 / 50] average loss generator vs. discrim.: 16.827593 vs. 0.000001
+Epoch [28 / 50] average loss generator vs. discrim.: 13.675946 vs. 0.000006
+Epoch [29 / 50] average loss generator vs. discrim.: 12.251446 vs. 0.000505
+Epoch [30 / 50] average loss generator vs. discrim.: 12.353150 vs. 0.001012
+Epoch [31 / 50] average loss generator vs. discrim.: 14.584258 vs. 0.001434
+Epoch [32 / 50] average loss generator vs. discrim.: 13.356097 vs. 0.000056
+Epoch [33 / 50] average loss generator vs. discrim.: 11.261353 vs. 0.000122
+Epoch [34 / 50] average loss generator vs. discrim.: 17.931755 vs. 0.002688
+Epoch [35 / 50] average loss generator vs. discrim.: 17.596539 vs. 0.000003
+Epoch [36 / 50] average loss generator vs. discrim.: 16.189608 vs. 0.000002
+Epoch [37 / 50] average loss generator vs. discrim.: 12.998882 vs. 0.000018
+Epoch [38 / 50] average loss generator vs. discrim.: 10.930154 vs. 0.000064
+Epoch [39 / 50] average loss generator vs. discrim.: 13.449201 vs. 0.001480
+Epoch [40 / 50] average loss generator vs. discrim.: 13.279654 vs. 0.000451
+Epoch [41 / 50] average loss generator vs. discrim.: 12.762870 vs. 0.000203
+Epoch [42 / 50] average loss generator vs. discrim.: 11.691449 vs. 0.000112
+Epoch [43 / 50] average loss generator vs. discrim.: 12.243824 vs. 0.000767
+Epoch [44 / 50] average loss generator vs. discrim.: 12.313540 vs. 0.000540
+Epoch [45 / 50] average loss generator vs. discrim.: 11.802937 vs. 0.000269
+Epoch [46 / 50] average loss generator vs. discrim.: 13.059926 vs. 0.000818
+Epoch [47 / 50] average loss generator vs. discrim.: 13.369408 vs. 0.000234
+Epoch [48 / 50] average loss generator vs. discrim.: 12.246527 vs. 0.000103
+Epoch [49 / 50] average loss generator vs. discrim.: 12.611141 vs. 0.000671
+Epoch [50 / 50] average loss generator vs. discrim.: 11.964560 vs. 0.000183
+Training complete in 0h 21m 28s
+Best Score: inf
+cpu
+> SEEDING DONE
+/home/hghallab/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py:449: UserWarning: Length of split at index 1 is 0. This might result in an empty dataset.
+  warnings.warn(f"Length of split at index {i} is 0. "
+Number of parameters for generator: 12660814 and discriminator: 61378945
+Training ...
+Epoch [1 / 50] average loss generator vs. discrim.: 89.490028 vs. 2.130339
+Epoch [2 / 50] average loss generator vs. discrim.: 74.242104 vs. 0.000000
+cpu
+> SEEDING DONE
+Number of parameters for generator: 12660814 and discriminator: 61378945
+Generator(
+  (deconv1): ConvTranspose2d(100, 1024, kernel_size=(4, 4), stride=(1, 1))
+  (deconv1_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv2): ConvTranspose2d(1024, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv2_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv3): ConvTranspose2d(512, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv3_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv4): ConvTranspose2d(256, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv4_bn): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv5): ConvTranspose2d(128, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv5_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv6): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv6_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv7): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv7_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv8): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+)
+Discriminator(
+  (conv1): Conv2d(3, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2): Conv2d(128, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv3): Conv2d(256, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv3_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv4): Conv2d(512, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv4_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv5): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv5_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv6): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv6_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv7): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv7_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv8): Conv2d(1024, 1, kernel_size=(4, 4), stride=(1, 1))
+)
+Training ...
+Epoch [1 / 50] average loss generator vs. discrim.: 55.202312 vs. 2.130339
+Epoch [2 / 50] average loss generator vs. discrim.: 31.777775 vs. 0.000000
+Number of parameters for generator: 12660814 and discriminator: 61378945
+Generator(
+  (deconv1): ConvTranspose2d(100, 1024, kernel_size=(4, 4), stride=(1, 1))
+  (deconv1_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv2): ConvTranspose2d(1024, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv2_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv3): ConvTranspose2d(512, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv3_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv4): ConvTranspose2d(256, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv4_bn): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv5): ConvTranspose2d(128, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv5_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv6): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv6_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv7): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv7_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv8): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+)
+Discriminator(
+  (conv1): Conv2d(3, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2): Conv2d(128, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv3): Conv2d(256, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv3_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv4): Conv2d(512, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv4_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv5): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv5_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv6): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv6_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv7): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv7_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv8): Conv2d(1024, 1, kernel_size=(4, 4), stride=(1, 1))
+)
+cpu
+> SEEDING DONE
+/home/hghallab/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py:449: UserWarning: Length of split at index 1 is 0. This might result in an empty dataset.
+  warnings.warn(f"Length of split at index {i} is 0. "
+Number of parameters for generator: 12660814 and discriminator: 61378945
+Generator(
+  (deconv1): ConvTranspose2d(100, 1024, kernel_size=(4, 4), stride=(1, 1))
+  (deconv1_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv2): ConvTranspose2d(1024, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv2_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv3): ConvTranspose2d(512, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv3_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv4): ConvTranspose2d(256, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv4_bn): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv5): ConvTranspose2d(128, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv5_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv6): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv6_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv7): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv7_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv8): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+)
+Discriminator(
+  (conv1): Conv2d(3, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2): Conv2d(128, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv3): Conv2d(256, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv3_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv4): Conv2d(512, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv4_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv5): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv5_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv6): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv6_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv7): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv7_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv8): Conv2d(1024, 1, kernel_size=(4, 4), stride=(1, 1))
+)
+Training ...
+Number of parameters for generator: 12660814 and discriminator: 61378945
+Generator(
+  (deconv1): ConvTranspose2d(100, 1024, kernel_size=(4, 4), stride=(1, 1))
+  (deconv1_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv2): ConvTranspose2d(1024, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv2_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv3): ConvTranspose2d(512, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv3_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv4): ConvTranspose2d(256, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv4_bn): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv5): ConvTranspose2d(128, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv5_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv6): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv6_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv7): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv7_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv8): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+)
+Discriminator(
+  (conv1): Conv2d(3, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2): Conv2d(128, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv3): Conv2d(256, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv3_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv4): Conv2d(512, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv4_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv5): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv5_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv6): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv6_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv7): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv7_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv8): Conv2d(1024, 1, kernel_size=(4, 4), stride=(1, 1))
+)
+Training ...
+Epoch [1 / 500] average loss generator vs. discrim.: 70.375671 vs. 1.469079
+Epoch [2 / 500] average loss generator vs. discrim.: 39.895649 vs. 0.000000
+Epoch [3 / 500] average loss generator vs. discrim.: 41.618069 vs. 0.000000
+Epoch [4 / 500] average loss generator vs. discrim.: 43.022606 vs. 0.000000
+Epoch [5 / 500] average loss generator vs. discrim.: 41.768303 vs. 0.000000
+Epoch [6 / 500] average loss generator vs. discrim.: 43.390518 vs. 0.000000
+Epoch [7 / 500] average loss generator vs. discrim.: 42.649010 vs. 0.000000
+Epoch [8 / 500] average loss generator vs. discrim.: 41.220779 vs. 0.000000
+Epoch [9 / 500] average loss generator vs. discrim.: 42.104908 vs. 0.000000
+Epoch [10 / 500] average loss generator vs. discrim.: 41.500710 vs. 0.000000
+Epoch [11 / 500] average loss generator vs. discrim.: 41.324974 vs. 0.000000
+Epoch [12 / 500] average loss generator vs. discrim.: 39.142487 vs. 0.000000
+Epoch [13 / 500] average loss generator vs. discrim.: 38.034473 vs. 0.000000
+Number of parameters for generator: 12660814 and discriminator: 61378945
+Training ...
+Epoch [1 / 500] average loss generator vs. discrim.: 13.368649 vs. 2.694939
+Epoch [2 / 500] average loss generator vs. discrim.: 24.195938 vs. 0.145734
+Epoch [3 / 500] average loss generator vs. discrim.: 14.165610 vs. 0.000252
+Epoch [4 / 500] average loss generator vs. discrim.: 11.308543 vs. 0.000180
+Number of parameters for generator: 12660814 and discriminator: 61378945
+Training ...
+Training ...
+Training ...
+Training ...
+Epoch [1 / 500] average loss generator vs. discrim.: 23.270132 vs. 2.277040
+Epoch [2 / 500] average loss generator vs. discrim.: 14.119057 vs. 0.024033
+Epoch [3 / 500] average loss generator vs. discrim.: 15.888648 vs. 0.036470
+Epoch [4 / 500] average loss generator vs. discrim.: 12.228738 vs. 0.000125
+Epoch [5 / 500] average loss generator vs. discrim.: 10.887167 vs. 0.000276
+Epoch [6 / 500] average loss generator vs. discrim.: 9.305140 vs. 0.000543
+Epoch [7 / 500] average loss generator vs. discrim.: 9.003160 vs. 0.006023
+Epoch [8 / 500] average loss generator vs. discrim.: 20.277601 vs. 0.031144
+Epoch [9 / 500] average loss generator vs. discrim.: 15.558475 vs. 0.000051
+cpu
+> SEEDING DONE
+/home/hghallab/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py:449: UserWarning: Length of split at index 1 is 0. This might result in an empty dataset.
+  warnings.warn(f"Length of split at index {i} is 0. "
+Number of parameters for generator: 12660814 and discriminator: 61378945
+Generator(
+  (deconv1): ConvTranspose2d(100, 1024, kernel_size=(4, 4), stride=(1, 1))
+  (deconv1_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv2): ConvTranspose2d(1024, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv2_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv3): ConvTranspose2d(512, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv3_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv4): ConvTranspose2d(256, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv4_bn): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv5): ConvTranspose2d(128, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv5_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv6): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv6_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv7): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv7_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv8): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+)
+Discriminator(
+  (conv1): Conv2d(3, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2): Conv2d(128, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv3): Conv2d(256, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv3_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv4): Conv2d(512, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv4_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv5): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv5_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv6): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv6_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv7): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv7_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv8): Conv2d(1024, 1, kernel_size=(4, 4), stride=(1, 1))
+)
+Number of parameters for generator: 12660814 and discriminator: 61378945
+Generator(
+  (deconv1): ConvTranspose2d(100, 1024, kernel_size=(4, 4), stride=(1, 1))
+  (deconv1_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv2): ConvTranspose2d(1024, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv2_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv3): ConvTranspose2d(512, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv3_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv4): ConvTranspose2d(256, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv4_bn): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv5): ConvTranspose2d(128, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv5_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv6): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv6_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv7): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv7_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv8): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+)
+Discriminator(
+  (conv1): Conv2d(3, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2): Conv2d(128, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv3): Conv2d(256, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv3_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv4): Conv2d(512, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv4_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv5): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv5_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv6): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv6_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv7): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv7_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv8): Conv2d(1024, 1, kernel_size=(4, 4), stride=(1, 1))
+)

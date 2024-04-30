@@ -1,0 +1,26 @@
+
+Training ...
+Epoch [1 / 500] average loss generator vs. discrim.: 120.374763 vs. 1.364609
+Training ...
+Epoch [1 / 500] average loss generator vs. discrim.: 53.260273 vs. 0.000000
+Epoch [2 / 500] average loss generator vs. discrim.: 30.494001 vs. 0.000000
+Epoch [3 / 500] average loss generator vs. discrim.: 103.380577 vs. 1.938704
+Training ...
+Epoch [1 / 500] average loss generator vs. discrim.: 65.072983 vs. 1.194319
+Epoch [2 / 500] average loss generator vs. discrim.: 29.195007 vs. 0.000000
+Epoch [3 / 500] average loss generator vs. discrim.: 19.673412 vs. 0.000022
+Epoch [4 / 500] average loss generator vs. discrim.: 48.985935 vs. 0.714185
+Epoch [5 / 500] average loss generator vs. discrim.: 28.587189 vs. 0.000002
+Epoch [6 / 500] average loss generator vs. discrim.: 21.929871 vs. 0.002762
+Epoch [7 / 500] average loss generator vs. discrim.: 93.387604 vs. 1.284256
+Epoch [8 / 500] average loss generator vs. discrim.: 75.908714 vs. 0.000000
+Epoch [9 / 500] average loss generator vs. discrim.: 58.337467 vs. 0.000000
+Epoch [10 / 500] average loss generator vs. discrim.: 42.966694 vs. 0.000000
+Epoch [11 / 500] average loss generator vs. discrim.: 17.847597 vs. 0.000006
+Epoch [12 / 500] average loss generator vs. discrim.: 151.679245 vs. 7.786005
+Epoch [13 / 500] average loss generator vs. discrim.: 136.885361 vs. 0.000000
+Epoch [14 / 500] average loss generator vs. discrim.: 139.517639 vs. 0.000000
+Epoch [15 / 500] average loss generator vs. discrim.: 133.027191 vs. 0.000000
+Epoch [16 / 500] average loss generator vs. discrim.: 129.293732 vs. 0.000000
+Epoch [17 / 500] average loss generator vs. discrim.: 123.167313 vs. 0.000000
+Epoch [18 / 500] average loss generator vs. discrim.: 111.181252 vs. 0.000000

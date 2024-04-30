@@ -1,0 +1,172 @@
+Training ...
+Epoch [1 / 100] average loss generator vs. discrim.: 6.680133 vs. 0.035189
+Epoch [2 / 100] average loss generator vs. discrim.: 7.095143 vs. 0.017944
+Epoch [3 / 100] average loss generator vs. discrim.: 8.969781 vs. 0.008221
+Epoch [4 / 100] average loss generator vs. discrim.: 6.749598 vs. 0.021279
+Epoch [5 / 100] average loss generator vs. discrim.: 11.402973 vs. 0.008992
+Epoch [6 / 100] average loss generator vs. discrim.: 6.924562 vs. 0.010399
+Epoch [7 / 100] average loss generator vs. discrim.: 9.195457 vs. 0.006565
+Epoch [8 / 100] average loss generator vs. discrim.: 9.499535 vs. 0.026449
+Epoch [9 / 100] average loss generator vs. discrim.: 8.328671 vs. 0.002644
+Epoch [10 / 100] average loss generator vs. discrim.: 8.864338 vs. 0.004005
+Epoch [11 / 100] average loss generator vs. discrim.: 8.868587 vs. 0.002365
+Epoch [12 / 100] average loss generator vs. discrim.: 7.935124 vs. 0.003252
+Epoch [13 / 100] average loss generator vs. discrim.: 9.197372 vs. 0.002673
+Epoch [14 / 100] average loss generator vs. discrim.: 12.988596 vs. 0.028154
+Epoch [15 / 100] average loss generator vs. discrim.: 13.623926 vs. 0.002624
+Epoch [16 / 100] average loss generator vs. discrim.: 9.734074 vs. 0.001273
+Epoch [17 / 100] average loss generator vs. discrim.: 9.801253 vs. 0.008714
+Epoch [18 / 100] average loss generator vs. discrim.: 8.537815 vs. 0.001685
+Epoch [19 / 100] average loss generator vs. discrim.: 8.739191 vs. 0.002580
+Epoch [20 / 100] average loss generator vs. discrim.: 8.603136 vs. 0.003531
+Epoch [21 / 100] average loss generator vs. discrim.: 8.176451 vs. 0.002382
+Epoch [22 / 100] average loss generator vs. discrim.: 8.878673 vs. 0.001587
+Epoch [23 / 100] average loss generator vs. discrim.: 8.302094 vs. 0.003416
+Epoch [24 / 100] average loss generator vs. discrim.: 8.939253 vs. 0.001111
+Epoch [25 / 100] average loss generator vs. discrim.: 8.885289 vs. 0.000945
+Epoch [26 / 100] average loss generator vs. discrim.: 8.723400 vs. 0.003243
+Epoch [27 / 100] average loss generator vs. discrim.: 8.448319 vs. 0.001290
+Epoch [28 / 100] average loss generator vs. discrim.: 9.522579 vs. 0.001013
+Epoch [29 / 100] average loss generator vs. discrim.: 9.327071 vs. 0.002558
+Epoch [30 / 100] average loss generator vs. discrim.: 8.596252 vs. 0.001893
+Epoch [31 / 100] average loss generator vs. discrim.: 8.932872 vs. 0.001578
+Epoch [32 / 100] average loss generator vs. discrim.: 8.883526 vs. 0.001876
+Epoch [33 / 100] average loss generator vs. discrim.: 8.579674 vs. 0.001590
+Epoch [34 / 100] average loss generator vs. discrim.: 8.673263 vs. 0.001604
+Epoch [35 / 100] average loss generator vs. discrim.: 8.769411 vs. 0.001205
+Epoch [36 / 100] average loss generator vs. discrim.: 8.765930 vs. 0.001109
+Epoch [37 / 100] average loss generator vs. discrim.: 8.548350 vs. 0.001649
+Epoch [38 / 100] average loss generator vs. discrim.: 8.436286 vs. 0.001632
+Epoch [39 / 100] average loss generator vs. discrim.: 8.563978 vs. 0.002440
+Epoch [40 / 100] average loss generator vs. discrim.: 8.791816 vs. 0.001634
+Epoch [41 / 100] average loss generator vs. discrim.: 8.943105 vs. 0.001343
+Epoch [42 / 100] average loss generator vs. discrim.: 8.647621 vs. 0.001505
+Epoch [43 / 100] average loss generator vs. discrim.: 8.747588 vs. 0.001123
+Epoch [44 / 100] average loss generator vs. discrim.: 8.637390 vs. 0.001383
+Epoch [45 / 100] average loss generator vs. discrim.: 8.735735 vs. 0.000818
+Epoch [46 / 100] average loss generator vs. discrim.: 8.817812 vs. 0.000562
+Epoch [47 / 100] average loss generator vs. discrim.: 8.692409 vs. 0.001075
+Epoch [48 / 100] average loss generator vs. discrim.: 8.599505 vs. 0.000721
+Epoch [49 / 100] average loss generator vs. discrim.: 8.874939 vs. 0.000944
+Epoch [50 / 100] average loss generator vs. discrim.: 9.039764 vs. 0.000509
+Epoch [51 / 100] average loss generator vs. discrim.: 8.794544 vs. 0.000711
+Epoch [52 / 100] average loss generator vs. discrim.: 9.077341 vs. 0.000680
+Epoch [53 / 100] average loss generator vs. discrim.: 9.192005 vs. 0.000983
+Epoch [54 / 100] average loss generator vs. discrim.: 8.831340 vs. 0.000672
+Epoch [55 / 100] average loss generator vs. discrim.: 8.620846 vs. 0.001667
+Epoch [56 / 100] average loss generator vs. discrim.: 9.054139 vs. 0.000460
+Epoch [57 / 100] average loss generator vs. discrim.: 8.731644 vs. 0.000882
+Epoch [58 / 100] average loss generator vs. discrim.: 8.941785 vs. 0.000637
+Epoch [59 / 100] average loss generator vs. discrim.: 8.955601 vs. 0.000593
+Epoch [60 / 100] average loss generator vs. discrim.: 8.920849 vs. 0.000860
+Epoch [61 / 100] average loss generator vs. discrim.: 8.844454 vs. 0.000488
+Epoch [62 / 100] average loss generator vs. discrim.: 8.887241 vs. 0.000608
+Epoch [63 / 100] average loss generator vs. discrim.: 9.175184 vs. 0.000429
+Epoch [64 / 100] average loss generator vs. discrim.: 8.913234 vs. 0.000519
+Epoch [65 / 100] average loss generator vs. discrim.: 8.796574 vs. 0.000597
+Epoch [66 / 100] average loss generator vs. discrim.: 8.961554 vs. 0.000496
+Epoch [67 / 100] average loss generator vs. discrim.: 8.769468 vs. 0.000554
+Epoch [68 / 100] average loss generator vs. discrim.: 9.189698 vs. 0.000307
+Epoch [69 / 100] average loss generator vs. discrim.: 8.973352 vs. 0.000399
+Epoch [70 / 100] average loss generator vs. discrim.: 9.004562 vs. 0.000456
+Epoch [71 / 100] average loss generator vs. discrim.: 8.893429 vs. 0.000458
+Epoch [72 / 100] average loss generator vs. discrim.: 9.269473 vs. 0.000264
+Epoch [73 / 100] average loss generator vs. discrim.: 8.868419 vs. 0.000433
+Epoch [74 / 100] average loss generator vs. discrim.: 9.095839 vs. 0.000289
+Epoch [75 / 100] average loss generator vs. discrim.: 9.127871 vs. 0.000426
+Epoch [76 / 100] average loss generator vs. discrim.: 9.097744 vs. 0.000379
+Epoch [77 / 100] average loss generator vs. discrim.: 9.270842 vs. 0.000301
+Epoch [78 / 100] average loss generator vs. discrim.: 8.961729 vs. 0.000511
+Epoch [79 / 100] average loss generator vs. discrim.: 9.362494 vs. 0.000292
+Epoch [80 / 100] average loss generator vs. discrim.: 8.911688 vs. 0.000431
+Epoch [81 / 100] average loss generator vs. discrim.: 9.311286 vs. 0.000376
+Epoch [82 / 100] average loss generator vs. discrim.: 9.168386 vs. 0.000356
+Epoch [83 / 100] average loss generator vs. discrim.: 9.103536 vs. 0.000310
+Epoch [84 / 100] average loss generator vs. discrim.: 9.314809 vs. 0.000470
+Epoch [85 / 100] average loss generator vs. discrim.: 9.234841 vs. 0.000252
+Epoch [86 / 100] average loss generator vs. discrim.: 8.982660 vs. 0.000313
+Epoch [87 / 100] average loss generator vs. discrim.: 9.472666 vs. 0.000189
+Epoch [88 / 100] average loss generator vs. discrim.: 9.006737 vs. 0.000412
+Epoch [89 / 100] average loss generator vs. discrim.: 9.163891 vs. 0.000277
+Epoch [90 / 100] average loss generator vs. discrim.: 9.002042 vs. 0.000283
+Epoch [91 / 100] average loss generator vs. discrim.: 9.038807 vs. 0.000305
+Epoch [92 / 100] average loss generator vs. discrim.: 9.035843 vs. 0.000263
+Epoch [93 / 100] average loss generator vs. discrim.: 9.195604 vs. 0.000331
+Epoch [94 / 100] average loss generator vs. discrim.: 9.144556 vs. 0.000332
+Epoch [95 / 100] average loss generator vs. discrim.: 9.162776 vs. 0.000257
+Epoch [96 / 100] average loss generator vs. discrim.: 9.210924 vs. 0.000232
+Epoch [97 / 100] average loss generator vs. discrim.: 9.426346 vs. 0.000280
+Epoch [98 / 100] average loss generator vs. discrim.: 9.363162 vs. 0.000235
+Epoch [99 / 100] average loss generator vs. discrim.: 9.360074 vs. 0.000328
+Epoch [100 / 100] average loss generator vs. discrim.: 9.225412 vs. 0.000233
+Training complete in 0h 1m 11s
+Best Score: inf
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: torchvision in /home/hghallab/.local/lib/python3.10/site-packages (0.17.2)
+Requirement already satisfied: numpy in /usr/local/lib/python3.10/dist-packages (from torchvision) (1.26.4)
+Requirement already satisfied: torch==2.2.2 in /home/hghallab/.local/lib/python3.10/site-packages (from torchvision) (2.2.2)
+Requirement already satisfied: pillow!=8.3.*,>=5.3.0 in /usr/lib/python3/dist-packages (from torchvision) (9.0.1)
+Requirement already satisfied: filelock in /home/hghallab/.local/lib/python3.10/site-packages (from torch==2.2.2->torchvision) (3.13.3)
+Requirement already satisfied: typing-extensions>=4.8.0 in /home/hghallab/.local/lib/python3.10/site-packages (from torch==2.2.2->torchvision) (4.10.0)
+Requirement already satisfied: sympy in /usr/lib/python3/dist-packages (from torch==2.2.2->torchvision) (1.9)
+Requirement already satisfied: networkx in /usr/local/lib/python3.10/dist-packages (from torch==2.2.2->torchvision) (3.2.1)
+Requirement already satisfied: jinja2 in /usr/lib/python3/dist-packages (from torch==2.2.2->torchvision) (3.0.3)
+Requirement already satisfied: fsspec in /home/hghallab/.local/lib/python3.10/site-packages (from torch==2.2.2->torchvision) (2024.3.1)
+Requirement already satisfied: nvidia-cuda-nvrtc-cu12==12.1.105 in /home/hghallab/.local/lib/python3.10/site-packages (from torch==2.2.2->torchvision) (12.1.105)
+Requirement already satisfied: nvidia-cuda-runtime-cu12==12.1.105 in /home/hghallab/.local/lib/python3.10/site-packages (from torch==2.2.2->torchvision) (12.1.105)
+Requirement already satisfied: nvidia-cuda-cupti-cu12==12.1.105 in /home/hghallab/.local/lib/python3.10/site-packages (from torch==2.2.2->torchvision) (12.1.105)
+Requirement already satisfied: nvidia-cudnn-cu12==8.9.2.26 in /home/hghallab/.local/lib/python3.10/site-packages (from torch==2.2.2->torchvision) (8.9.2.26)
+Requirement already satisfied: nvidia-cublas-cu12==12.1.3.1 in /home/hghallab/.local/lib/python3.10/site-packages (from torch==2.2.2->torchvision) (12.1.3.1)
+Requirement already satisfied: nvidia-cufft-cu12==11.0.2.54 in /home/hghallab/.local/lib/python3.10/site-packages (from torch==2.2.2->torchvision) (11.0.2.54)
+Requirement already satisfied: nvidia-curand-cu12==10.3.2.106 in /home/hghallab/.local/lib/python3.10/site-packages (from torch==2.2.2->torchvision) (10.3.2.106)
+Requirement already satisfied: nvidia-cusolver-cu12==11.4.5.107 in /home/hghallab/.local/lib/python3.10/site-packages (from torch==2.2.2->torchvision) (11.4.5.107)
+Requirement already satisfied: nvidia-cusparse-cu12==12.1.0.106 in /home/hghallab/.local/lib/python3.10/site-packages (from torch==2.2.2->torchvision) (12.1.0.106)
+Requirement already satisfied: nvidia-nccl-cu12==2.19.3 in /home/hghallab/.local/lib/python3.10/site-packages (from torch==2.2.2->torchvision) (2.19.3)
+Requirement already satisfied: nvidia-nvtx-cu12==12.1.105 in /home/hghallab/.local/lib/python3.10/site-packages (from torch==2.2.2->torchvision) (12.1.105)
+Requirement already satisfied: triton==2.2.0 in /home/hghallab/.local/lib/python3.10/site-packages (from torch==2.2.2->torchvision) (2.2.0)
+Requirement already satisfied: nvidia-nvjitlink-cu12 in /home/hghallab/.local/lib/python3.10/site-packages (from nvidia-cusolver-cu12==11.4.5.107->torch==2.2.2->torchvision) (12.4.127)
+Defaulting to user installation because normal site-packages is not writeable
+Requirement already satisfied: wandb in /home/hghallab/.local/lib/python3.10/site-packages (0.16.6)
+Requirement already satisfied: Click!=8.0.0,>=7.1 in /usr/lib/python3/dist-packages (from wandb) (8.0.3)
+Requirement already satisfied: GitPython!=3.1.29,>=1.0.0 in /home/hghallab/.local/lib/python3.10/site-packages (from wandb) (3.1.43)
+Requirement already satisfied: requests<3,>=2.0.0 in /usr/lib/python3/dist-packages (from wandb) (2.25.1)
+Requirement already satisfied: psutil>=5.0.0 in /home/hghallab/.local/lib/python3.10/site-packages (from wandb) (5.9.8)
+Requirement already satisfied: sentry-sdk>=1.0.0 in /home/hghallab/.local/lib/python3.10/site-packages (from wandb) (1.45.0)
+Requirement already satisfied: docker-pycreds>=0.4.0 in /home/hghallab/.local/lib/python3.10/site-packages (from wandb) (0.4.0)
+Requirement already satisfied: PyYAML in /usr/lib/python3/dist-packages (from wandb) (5.4.1)
+Requirement already satisfied: setproctitle in /home/hghallab/.local/lib/python3.10/site-packages (from wandb) (1.3.3)
+Requirement already satisfied: setuptools in /usr/lib/python3/dist-packages (from wandb) (59.6.0)
+Requirement already satisfied: appdirs>=1.4.3 in /usr/lib/python3/dist-packages (from wandb) (1.4.4)
+Requirement already satisfied: protobuf!=4.21.0,<5,>=3.19.0 in /home/hghallab/.local/lib/python3.10/site-packages (from wandb) (4.25.3)
+Requirement already satisfied: six>=1.4.0 in /usr/lib/python3/dist-packages (from docker-pycreds>=0.4.0->wandb) (1.16.0)
+Requirement already satisfied: gitdb<5,>=4.0.1 in /home/hghallab/.local/lib/python3.10/site-packages (from GitPython!=3.1.29,>=1.0.0->wandb) (4.0.11)
+Requirement already satisfied: certifi in /home/hghallab/.local/lib/python3.10/site-packages (from sentry-sdk>=1.0.0->wandb) (2023.7.22)
+Requirement already satisfied: urllib3>=1.26.11 in /home/hghallab/.local/lib/python3.10/site-packages (from sentry-sdk>=1.0.0->wandb) (2.2.1)
+Requirement already satisfied: smmap<6,>=3.0.1 in /home/hghallab/.local/lib/python3.10/site-packages (from gitdb<5,>=4.0.1->GitPython!=3.1.29,>=1.0.0->wandb) (5.0.1)
+[34m[1mwandb[39m[22m: [33mWARNING[39m Calling wandb.login() after wandb.init() has no effect.
+/home/hghallab/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py:449: UserWarning: Length of split at index 1 is 0. This might result in an empty dataset.
+  warnings.warn(f"Length of split at index {i} is 0. "
+cpu
+> SEEDING DONE
+Number of parameters for generator: 3577667 and discriminator: 2766529
+Generator(
+  (deconv1): ConvTranspose2d(100, 512, kernel_size=(4, 4), stride=(1, 1))
+  (deconv1_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv2): ConvTranspose2d(512, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv2_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv3): ConvTranspose2d(256, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv3_bn): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv4): ConvTranspose2d(128, 64, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv4_bn): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv5): ConvTranspose2d(64, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+)
+Discriminator(
+  (conv1): Conv2d(3, 64, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2): Conv2d(64, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2_bn): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv3): Conv2d(128, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv3_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv4): Conv2d(256, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv4_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv5): Conv2d(512, 1, kernel_size=(4, 4), stride=(2, 2))
+)

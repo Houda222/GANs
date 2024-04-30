@@ -1,0 +1,79 @@
+{
+    "os": "Linux-6.5.0-28-generic-x86_64-with-glibc2.35",
+    "python": "3.10.12",
+    "heartbeatAt": "2024-04-30T09:14:34.913598",
+    "startedAt": "2024-04-30T09:14:34.114495",
+    "docker": null,
+    "cuda": null,
+    "args": [],
+    "state": "running",
+    "program": "<python with no main file>",
+    "codePathLocal": null,
+    "git": {
+        "remote": "https://github.com/Houda222/SYN-MTGAN.git",
+        "commit": "b8ec378fc64544496c26534880ffa54160f12c8e"
+    },
+    "email": "houda.ghallab@imt-atlantique.net",
+    "root": "/home/hghallab/Dvlp/GANs",
+    "host": "hghallab",
+    "username": "hghallab",
+    "executable": "/bin/python3",
+    "cpu_count": 4,
+    "cpu_count_logical": 8,
+    "cpu_freq": {
+        "current": 2199.989875,
+        "min": 400.0,
+        "max": 4500.0
+    },
+    "cpu_freq_per_core": [
+        {
+            "current": 2199.981,
+            "min": 400.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2200.046,
+            "min": 400.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2201.226,
+            "min": 400.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2200.872,
+            "min": 400.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2200.015,
+            "min": 400.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2199.967,
+            "min": 400.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2200.0,
+            "min": 400.0,
+            "max": 4500.0
+        },
+        {
+            "current": 2199.993,
+            "min": 400.0,
+            "max": 4500.0
+        }
+    ],
+    "disk": {
+        "/": {
+            "total": 136.6944694519043,
+            "used": 81.88533782958984
+        }
+    },
+    "memory": {
+        "total": 31.207508087158203
+    }
+}

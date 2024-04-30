@@ -1,0 +1,88 @@
+
+Training ...
+Training ...
+Training ...
+Training ...
+Number of parameters for generator: 2370627 and discriminator: 2795330
+Training ...
+Number of parameters for generator: 2370627 and discriminator: 2795330
+Training ...
+Number of parameters for generator: 12660355 and discriminator: 11038081
+Training ...
+tensor([[0.5246, 0.5094, 0.5004,  ..., 0.7138, 0.4531, 0.6180],
+        [0.5248, 0.5140, 0.5095,  ..., 0.4914, 0.4538, 0.3486],
+        [0.5197, 0.5141, 0.5016,  ..., 0.5277, 0.5866, 0.2406],
+        ...,
+        [0.5317, 0.3768, 0.4165,  ..., 0.5189, 0.5062, 0.5072],
+        [0.4937, 0.5007, 0.5128,  ..., 0.5092, 0.5103, 0.5202],
+        [0.5409, 0.4549, 0.5045,  ..., 0.4771, 0.4815, 0.4811]],
+       grad_fn=<SelectBackward0>)
+torch.Size([8])
+Number of parameters for generator: 12660355 and discriminator: 11038081
+Training ...
+torch.Size([8, 512, 125, 125])
+torch.Size([8, 1024, 62, 62])
+torch.Size([8, 1, 59, 59])
+torch.Size([8, 512, 8, 8])
+torch.Size([8, 1024, 4, 4])
+torch.Size([8, 1, 1, 1])
+tensor([[0.4792, 0.5108, 0.5378,  ..., 0.4775, 0.4846, 0.4535],
+        [0.5910, 0.4722, 0.4612,  ..., 0.4289, 0.4325, 0.4043],
+        [0.5556, 0.4921, 0.4522,  ..., 0.4246, 0.4242, 0.4019],
+        ...,
+        [0.4279, 0.4310, 0.3051,  ..., 0.5028, 0.4804, 0.5075],
+        [0.4826, 0.5117, 0.3139,  ..., 0.3843, 0.3727, 0.4645],
+        [0.4058, 0.5026, 0.4416,  ..., 0.7141, 0.5569, 0.5314]],
+       grad_fn=<SelectBackward0>)
+torch.Size([8])
+Training ...
+torch.Size([8, 512, 125, 125])
+torch.Size([8, 1024, 62, 62])
+torch.Size([8, 1, 59, 59])
+torch.Size([8, 512, 8, 8])
+torch.Size([8, 1024, 4, 4])
+torch.Size([8, 1, 1, 1])
+torch.Size([8, 59, 59])
+torch.Size([8])
+Number of parameters for generator: 12660355 and discriminator: 11038081
+Generator(
+  (deconv1): ConvTranspose2d(100, 1024, kernel_size=(4, 4), stride=(1, 1))
+  (deconv1_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv2): ConvTranspose2d(1024, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv2_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv3): ConvTranspose2d(512, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv3_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv4): ConvTranspose2d(256, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv4_bn): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv5): ConvTranspose2d(128, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+)
+Discriminator(
+  (conv1): Conv2d(3, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2): Conv2d(128, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv3): Conv2d(256, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv3_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv4): Conv2d(512, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv4_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv5): Conv2d(1024, 1, kernel_size=(4, 4), stride=(1, 1))
+)
+Training ...
+torch.Size([8, 512, 125, 125])
+torch.Size([8, 1024, 62, 62])
+torch.Size([8, 1, 59, 59]) end
+torch.Size([8, 512, 8, 8])
+torch.Size([8, 1024, 4, 4])
+torch.Size([8, 1, 1, 1]) end
+torch.Size([8, 59, 59])
+torch.Size([8])
+Training ...
+torch.Size([8, 3, 1000, 1000])
+torch.Size([8, 512, 125, 125])
+torch.Size([8, 1024, 62, 62])
+torch.Size([8, 1, 59, 59]) end
+torch.Size([8, 512, 8, 8])
+torch.Size([8, 1024, 4, 4])
+torch.Size([8, 1, 1, 1]) end
+torch.Size([8, 59, 59])
+torch.Size([8])
+Training ...

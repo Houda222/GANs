@@ -1,0 +1,63 @@
+2024-04-30 14:11:21,332 INFO    MainThread:114558 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-30 14:11:21,332 INFO    MainThread:114558 [wandb_setup.py:_flush():76] Configure stats pid to 114558
+2024-04-30 14:11:21,332 INFO    MainThread:114558 [wandb_setup.py:_flush():76] Loading settings from /home/hghallab/.config/wandb/settings
+2024-04-30 14:11:21,332 INFO    MainThread:114558 [wandb_setup.py:_flush():76] Loading settings from /home/hghallab/Dvlp/GANs/DCGAN/wandb/settings
+2024-04-30 14:11:21,332 INFO    MainThread:114558 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-30 14:11:21,332 INFO    MainThread:114558 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-30 14:11:21,332 INFO    MainThread:114558 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-04-30 14:11:21,332 INFO    MainThread:114558 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-04-30 14:11:21,332 INFO    MainThread:114558 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-30 14:11:21,332 INFO    MainThread:114558 [wandb_init.py:_log_setup():521] Logging user logs to /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_141121-obkxv0lp/logs/debug.log
+2024-04-30 14:11:21,333 INFO    MainThread:114558 [wandb_init.py:_log_setup():522] Logging internal logs to /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_141121-obkxv0lp/logs/debug-internal.log
+2024-04-30 14:11:21,333 INFO    MainThread:114558 [wandb_init.py:_jupyter_setup():467] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7c2660b51780>
+2024-04-30 14:11:21,333 INFO    MainThread:114558 [wandb_init.py:init():561] calling init triggers
+2024-04-30 14:11:21,333 INFO    MainThread:114558 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'seed': 12, 'debug': False, 'model_name': 'DCGANsmall|templates', 'loss_function': 'BCELoss', 'train_bs': 8, 'valid_bs': 8, 'img_size': [64, 64], 'epochs': 500, 'lr': 0.0002, 'n_accumulate': 4, 'device': device(type='cpu')}
+2024-04-30 14:11:21,333 INFO    MainThread:114558 [wandb_init.py:init():611] starting backend
+2024-04-30 14:11:21,333 INFO    MainThread:114558 [wandb_init.py:init():615] setting up manager
+2024-04-30 14:11:21,334 INFO    MainThread:114558 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-04-30 14:11:21,335 INFO    MainThread:114558 [wandb_init.py:init():623] backend started and connected
+2024-04-30 14:11:21,340 INFO    MainThread:114558 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2024-04-30 14:11:21,340 INFO    MainThread:114558 [wandb_run.py:_label_probe_notebook():1309] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-04-30 14:11:21,340 INFO    MainThread:114558 [wandb_init.py:init():715] updated telemetry
+2024-04-30 14:11:21,344 INFO    MainThread:114558 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout
+2024-04-30 14:11:52,434 WARNING MainThread:114558 [wandb_init.py:init():1203] interrupted
+Traceback (most recent call last):
+  File "/home/hghallab/.local/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 1181, in init
+    run = wi.init()
+  File "/home/hghallab/.local/lib/python3.10/site-packages/wandb/sdk/wandb_init.py", line 751, in init
+    result = run_init_handle.wait(
+  File "/home/hghallab/.local/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 283, in wait
+    found, abandoned = self._slot._get_and_clear(timeout=wait_timeout)
+  File "/home/hghallab/.local/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 130, in _get_and_clear
+    if self._wait(timeout=timeout):
+  File "/home/hghallab/.local/lib/python3.10/site-packages/wandb/sdk/lib/mailbox.py", line 126, in _wait
+    return self._event.wait(timeout=timeout)
+  File "/usr/lib/python3.10/threading.py", line 607, in wait
+    signaled = self._cond.wait(timeout)
+  File "/usr/lib/python3.10/threading.py", line 324, in wait
+    gotit = waiter.acquire(True, timeout)
+KeyboardInterrupt
+2024-04-30 14:11:53,622 INFO    MainThread:114558 [wandb_settings.py:_apply_login():1943] Applying login settings: {}
+2024-04-30 14:11:53,628 INFO    MainThread:114558 [wandb_setup.py:_flush():76] Current SDK version is 0.16.6
+2024-04-30 14:11:53,628 INFO    MainThread:114558 [wandb_setup.py:_flush():76] Configure stats pid to 114558
+2024-04-30 14:11:53,628 INFO    MainThread:114558 [wandb_setup.py:_flush():76] Loading settings from /home/hghallab/.config/wandb/settings
+2024-04-30 14:11:53,629 INFO    MainThread:114558 [wandb_setup.py:_flush():76] Loading settings from /home/hghallab/Dvlp/GANs/DCGAN/wandb/settings
+2024-04-30 14:11:53,629 INFO    MainThread:114558 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2024-04-30 14:11:53,629 INFO    MainThread:114558 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2024-04-30 14:11:53,629 INFO    MainThread:114558 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-04-30 14:11:53,629 INFO    MainThread:114558 [wandb_setup.py:_flush():76] Applying login settings: {'api_key': '***REDACTED***'}
+2024-04-30 14:11:53,629 INFO    MainThread:114558 [wandb_setup.py:_flush():76] Applying login settings: {}
+2024-04-30 14:11:53,629 INFO    MainThread:114558 [wandb_init.py:_log_setup():521] Logging user logs to /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_141153-nk0rnxrn/logs/debug.log
+2024-04-30 14:11:53,629 INFO    MainThread:114558 [wandb_init.py:_log_setup():522] Logging internal logs to /home/hghallab/Dvlp/GANs/DCGAN/wandb/run-20240430_141153-nk0rnxrn/logs/debug-internal.log
+2024-04-30 14:11:53,629 INFO    MainThread:114558 [wandb_init.py:init():561] calling init triggers
+2024-04-30 14:11:53,629 INFO    MainThread:114558 [wandb_init.py:init():568] wandb.init called with sweep_config: {}
+config: {'seed': 12, 'debug': False, 'model_name': 'DCGANsmall|templates', 'loss_function': 'BCELoss', 'train_bs': 8, 'valid_bs': 8, 'img_size': [64, 64], 'epochs': 500, 'lr': 0.0002, 'n_accumulate': 4, 'device': device(type='cpu')}
+2024-04-30 14:11:53,629 INFO    MainThread:114558 [wandb_init.py:init():611] starting backend
+2024-04-30 14:11:53,629 INFO    MainThread:114558 [wandb_init.py:init():615] setting up manager
+2024-04-30 14:11:53,631 INFO    MainThread:114558 [backend.py:_multiprocessing_setup():105] multiprocessing start_methods=fork,spawn,forkserver, using: spawn
+2024-04-30 14:11:53,631 INFO    MainThread:114558 [wandb_init.py:init():623] backend started and connected
+2024-04-30 14:11:53,635 INFO    MainThread:114558 [wandb_run.py:_label_probe_notebook():1299] probe notebook
+2024-04-30 14:11:53,635 INFO    MainThread:114558 [wandb_run.py:_label_probe_notebook():1309] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2024-04-30 14:11:53,635 INFO    MainThread:114558 [wandb_init.py:init():715] updated telemetry
+2024-04-30 14:11:53,640 INFO    MainThread:114558 [wandb_init.py:init():748] communicating run to backend with 90.0 second timeout

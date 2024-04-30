@@ -1,0 +1,1528 @@
+Training ...
+[32mValid Score Improved (-inf ---> 0.7132)
+[32mModel Saved
+Epoch [1 / 500] average loss generator vs. discrim.: 6.091664 vs. 0.713179
+[32mValid Score Improved (0.7132 ---> 0.2992)
+[32mModel Saved
+Epoch [2 / 500] average loss generator vs. discrim.: 8.489653 vs. 0.299161
+[32mValid Score Improved (0.2992 ---> 0.0420)
+[32mModel Saved
+Epoch [3 / 500] average loss generator vs. discrim.: 7.415243 vs. 0.041969
+[32mValid Score Improved (0.0420 ---> 0.0101)
+[32mModel Saved
+Epoch [4 / 500] average loss generator vs. discrim.: 7.673275 vs. 0.010123
+[32mValid Score Improved (0.0101 ---> 0.0186)
+[32mModel Saved
+Epoch [5 / 500] average loss generator vs. discrim.: 6.162264 vs. 0.018647
+[32mValid Score Improved (0.0186 ---> 0.0140)
+[32mModel Saved
+Epoch [6 / 500] average loss generator vs. discrim.: 6.210307 vs. 0.014049
+[32mValid Score Improved (0.0140 ---> 0.0564)
+[32mModel Saved
+Epoch [7 / 500] average loss generator vs. discrim.: 7.211037 vs. 0.056423
+[32mValid Score Improved (0.0564 ---> 0.0210)
+[32mModel Saved
+Epoch [8 / 500] average loss generator vs. discrim.: 7.523552 vs. 0.021032
+[32mValid Score Improved (0.0210 ---> 0.0082)
+[32mModel Saved
+Epoch [9 / 500] average loss generator vs. discrim.: 7.386997 vs. 0.008190
+[32mValid Score Improved (0.0082 ---> 0.0125)
+[32mModel Saved
+Epoch [10 / 500] average loss generator vs. discrim.: 6.751762 vs. 0.012495
+[32mValid Score Improved (0.0125 ---> 0.0056)
+[32mModel Saved
+Epoch [11 / 500] average loss generator vs. discrim.: 6.776848 vs. 0.005631
+[32mValid Score Improved (0.0056 ---> 0.0307)
+[32mModel Saved
+Epoch [12 / 500] average loss generator vs. discrim.: 8.253208 vs. 0.030698
+[32mValid Score Improved (0.0307 ---> 0.0068)
+[32mModel Saved
+Epoch [13 / 500] average loss generator vs. discrim.: 7.996800 vs. 0.006800
+[32mValid Score Improved (0.0068 ---> 0.0096)
+[32mModel Saved
+Epoch [14 / 500] average loss generator vs. discrim.: 8.016757 vs. 0.009577
+[32mValid Score Improved (0.0096 ---> 0.0130)
+[32mModel Saved
+Epoch [15 / 500] average loss generator vs. discrim.: 7.703630 vs. 0.012981
+[32mValid Score Improved (0.0130 ---> 0.0063)
+[32mModel Saved
+Epoch [16 / 500] average loss generator vs. discrim.: 7.476748 vs. 0.006324
+[32mValid Score Improved (0.0063 ---> 0.0053)
+[32mModel Saved
+Epoch [17 / 500] average loss generator vs. discrim.: 7.335849 vs. 0.005310
+[32mValid Score Improved (0.0053 ---> 0.0171)
+[32mModel Saved
+Epoch [18 / 500] average loss generator vs. discrim.: 8.755077 vs. 0.017062
+[32mValid Score Improved (0.0171 ---> 0.0036)
+[32mModel Saved
+Epoch [19 / 500] average loss generator vs. discrim.: 8.700007 vs. 0.003629
+[32mValid Score Improved (0.0036 ---> 0.0005)
+[32mModel Saved
+Epoch [20 / 500] average loss generator vs. discrim.: 8.885136 vs. 0.000532
+[32mValid Score Improved (0.0005 ---> 0.0095)
+[32mModel Saved
+Epoch [21 / 500] average loss generator vs. discrim.: 7.715487 vs. 0.009518
+[32mValid Score Improved (0.0095 ---> 0.0074)
+[32mModel Saved
+Epoch [22 / 500] average loss generator vs. discrim.: 8.515520 vs. 0.007356
+[32mValid Score Improved (0.0074 ---> 0.0019)
+[32mModel Saved
+Epoch [23 / 500] average loss generator vs. discrim.: 8.107688 vs. 0.001869
+[32mValid Score Improved (0.0019 ---> 0.0021)
+[32mModel Saved
+Epoch [24 / 500] average loss generator vs. discrim.: 7.666610 vs. 0.002080
+[32mValid Score Improved (0.0021 ---> 0.0154)
+[32mModel Saved
+Epoch [25 / 500] average loss generator vs. discrim.: 8.797161 vs. 0.015377
+[32mValid Score Improved (0.0154 ---> 0.0038)
+[32mModel Saved
+Epoch [26 / 500] average loss generator vs. discrim.: 9.142193 vs. 0.003832
+[32mValid Score Improved (0.0038 ---> 0.0006)
+[32mModel Saved
+Epoch [27 / 500] average loss generator vs. discrim.: 8.919177 vs. 0.000572
+[32mValid Score Improved (0.0006 ---> 0.0018)
+[32mModel Saved
+Epoch [28 / 500] average loss generator vs. discrim.: 7.615603 vs. 0.001833
+[32mValid Score Improved (0.0018 ---> 0.0070)
+[32mModel Saved
+Epoch [29 / 500] average loss generator vs. discrim.: 7.509373 vs. 0.007025
+[32mValid Score Improved (0.0070 ---> 0.0152)
+[32mModel Saved
+Epoch [30 / 500] average loss generator vs. discrim.: 10.306437 vs. 0.015230
+[32mValid Score Improved (0.0152 ---> 0.0006)
+[32mModel Saved
+Epoch [31 / 500] average loss generator vs. discrim.: 10.030030 vs. 0.000622
+[32mValid Score Improved (0.0006 ---> 0.0002)
+[32mModel Saved
+Epoch [32 / 500] average loss generator vs. discrim.: 10.167505 vs. 0.000219
+[32mValid Score Improved (0.0002 ---> 0.0026)
+[32mModel Saved
+Epoch [33 / 500] average loss generator vs. discrim.: 7.830009 vs. 0.002635
+[32mValid Score Improved (0.0026 ---> 0.0020)
+[32mModel Saved
+Epoch [34 / 500] average loss generator vs. discrim.: 7.661921 vs. 0.001979
+[32mValid Score Improved (0.0020 ---> 0.0064)
+[32mModel Saved
+Epoch [35 / 500] average loss generator vs. discrim.: 7.861807 vs. 0.006364
+[32mValid Score Improved (0.0064 ---> 0.0090)
+[32mModel Saved
+Epoch [36 / 500] average loss generator vs. discrim.: 9.209954 vs. 0.009006
+[32mValid Score Improved (0.0090 ---> 0.0045)
+[32mModel Saved
+Epoch [37 / 500] average loss generator vs. discrim.: 10.717815 vs. 0.004491
+[32mValid Score Improved (0.0045 ---> 0.0004)
+[32mModel Saved
+Epoch [38 / 500] average loss generator vs. discrim.: 10.005486 vs. 0.000355
+[32mValid Score Improved (0.0004 ---> 0.0007)
+[32mModel Saved
+Epoch [39 / 500] average loss generator vs. discrim.: 9.140209 vs. 0.000707
+[32mValid Score Improved (0.0007 ---> 0.0021)
+[32mModel Saved
+Epoch [40 / 500] average loss generator vs. discrim.: 7.528647 vs. 0.002071
+[32mValid Score Improved (0.0021 ---> 0.0016)
+[32mModel Saved
+Epoch [41 / 500] average loss generator vs. discrim.: 7.956282 vs. 0.001592
+[32mValid Score Improved (0.0016 ---> 0.0096)
+[32mModel Saved
+Epoch [42 / 500] average loss generator vs. discrim.: 9.171210 vs. 0.009587
+[32mValid Score Improved (0.0096 ---> 0.0014)
+[32mModel Saved
+Epoch [43 / 500] average loss generator vs. discrim.: 9.263037 vs. 0.001402
+[32mValid Score Improved (0.0014 ---> 0.0012)
+[32mModel Saved
+Epoch [44 / 500] average loss generator vs. discrim.: 8.891399 vs. 0.001181
+[32mValid Score Improved (0.0012 ---> 0.0017)
+[32mModel Saved
+Epoch [45 / 500] average loss generator vs. discrim.: 8.411817 vs. 0.001704
+[32mValid Score Improved (0.0017 ---> 0.0047)
+[32mModel Saved
+Epoch [46 / 500] average loss generator vs. discrim.: 8.270020 vs. 0.004719
+[32mValid Score Improved (0.0047 ---> 0.0028)
+[32mModel Saved
+Epoch [47 / 500] average loss generator vs. discrim.: 8.546394 vs. 0.002753
+[32mValid Score Improved (0.0028 ---> 0.0019)
+[32mModel Saved
+Epoch [48 / 500] average loss generator vs. discrim.: 8.608057 vs. 0.001921
+[32mValid Score Improved (0.0019 ---> 0.0016)
+[32mModel Saved
+Epoch [49 / 500] average loss generator vs. discrim.: 8.614661 vs. 0.001590
+[32mValid Score Improved (0.0016 ---> 0.0031)
+[32mModel Saved
+Epoch [50 / 500] average loss generator vs. discrim.: 8.173504 vs. 0.003128
+[32mValid Score Improved (0.0031 ---> 0.0056)
+[32mModel Saved
+Epoch [51 / 500] average loss generator vs. discrim.: 9.168834 vs. 0.005561
+[32mValid Score Improved (0.0056 ---> 0.0006)
+[32mModel Saved
+Epoch [52 / 500] average loss generator vs. discrim.: 9.462696 vs. 0.000621
+[32mValid Score Improved (0.0006 ---> 0.0005)
+[32mModel Saved
+Epoch [53 / 500] average loss generator vs. discrim.: 8.980531 vs. 0.000544
+[32mValid Score Improved (0.0005 ---> 0.0011)
+[32mModel Saved
+Epoch [54 / 500] average loss generator vs. discrim.: 8.296103 vs. 0.001100
+[32mValid Score Improved (0.0011 ---> 0.0047)
+[32mModel Saved
+Epoch [55 / 500] average loss generator vs. discrim.: 8.744533 vs. 0.004745
+[32mValid Score Improved (0.0047 ---> 0.0018)
+[32mModel Saved
+Epoch [56 / 500] average loss generator vs. discrim.: 8.724073 vs. 0.001811
+[32mValid Score Improved (0.0018 ---> 0.0024)
+[32mModel Saved
+Epoch [57 / 500] average loss generator vs. discrim.: 9.204122 vs. 0.002353
+[32mValid Score Improved (0.0024 ---> 0.0010)
+[32mModel Saved
+Epoch [58 / 500] average loss generator vs. discrim.: 8.634636 vs. 0.001019
+[32mValid Score Improved (0.0010 ---> 0.0021)
+[32mModel Saved
+Epoch [59 / 500] average loss generator vs. discrim.: 8.307041 vs. 0.002079
+[32mValid Score Improved (0.0021 ---> 0.0022)
+[32mModel Saved
+Epoch [60 / 500] average loss generator vs. discrim.: 8.354413 vs. 0.002200
+[32mValid Score Improved (0.0022 ---> 0.0018)
+[32mModel Saved
+Epoch [61 / 500] average loss generator vs. discrim.: 8.699984 vs. 0.001752
+[32mValid Score Improved (0.0018 ---> 0.0018)
+[32mModel Saved
+Epoch [62 / 500] average loss generator vs. discrim.: 8.447914 vs. 0.001829
+[32mValid Score Improved (0.0018 ---> 0.0018)
+[32mModel Saved
+Epoch [63 / 500] average loss generator vs. discrim.: 8.549032 vs. 0.001846
+[32mValid Score Improved (0.0018 ---> 0.0025)
+[32mModel Saved
+Epoch [64 / 500] average loss generator vs. discrim.: 8.600217 vs. 0.002546
+[32mValid Score Improved (0.0025 ---> 0.0009)
+[32mModel Saved
+Epoch [65 / 500] average loss generator vs. discrim.: 8.778807 vs. 0.000936
+[32mValid Score Improved (0.0009 ---> 0.0012)
+[32mModel Saved
+Epoch [66 / 500] average loss generator vs. discrim.: 8.702966 vs. 0.001237
+[32mValid Score Improved (0.0012 ---> 0.0019)
+[32mModel Saved
+Epoch [67 / 500] average loss generator vs. discrim.: 8.730962 vs. 0.001860
+[32mValid Score Improved (0.0019 ---> 0.0021)
+[32mModel Saved
+Epoch [68 / 500] average loss generator vs. discrim.: 8.524076 vs. 0.002099
+[32mValid Score Improved (0.0021 ---> 0.0020)
+[32mModel Saved
+Epoch [69 / 500] average loss generator vs. discrim.: 8.833638 vs. 0.001984
+[32mValid Score Improved (0.0020 ---> 0.0005)
+[32mModel Saved
+Epoch [70 / 500] average loss generator vs. discrim.: 9.204869 vs. 0.000532
+[32mValid Score Improved (0.0005 ---> 0.0008)
+[32mModel Saved
+Epoch [71 / 500] average loss generator vs. discrim.: 8.538750 vs. 0.000768
+[32mValid Score Improved (0.0008 ---> 0.0018)
+[32mModel Saved
+Epoch [72 / 500] average loss generator vs. discrim.: 8.486227 vs. 0.001818
+[32mValid Score Improved (0.0018 ---> 0.0011)
+[32mModel Saved
+Epoch [73 / 500] average loss generator vs. discrim.: 8.428047 vs. 0.001119
+[32mValid Score Improved (0.0011 ---> 0.0018)
+[32mModel Saved
+Epoch [74 / 500] average loss generator vs. discrim.: 8.681701 vs. 0.001799
+[32mValid Score Improved (0.0018 ---> 0.0011)
+[32mModel Saved
+Epoch [75 / 500] average loss generator vs. discrim.: 8.753274 vs. 0.001055
+[32mValid Score Improved (0.0011 ---> 0.0013)
+[32mModel Saved
+Epoch [76 / 500] average loss generator vs. discrim.: 8.457184 vs. 0.001316
+[32mValid Score Improved (0.0013 ---> 0.0015)
+[32mModel Saved
+Epoch [77 / 500] average loss generator vs. discrim.: 8.459639 vs. 0.001537
+[32mValid Score Improved (0.0015 ---> 0.0013)
+[32mModel Saved
+Epoch [78 / 500] average loss generator vs. discrim.: 8.624329 vs. 0.001349
+[32mValid Score Improved (0.0013 ---> 0.0012)
+[32mModel Saved
+Epoch [79 / 500] average loss generator vs. discrim.: 8.697776 vs. 0.001206
+[32mValid Score Improved (0.0012 ---> 0.0009)
+[32mModel Saved
+Epoch [80 / 500] average loss generator vs. discrim.: 8.556096 vs. 0.000931
+[32mValid Score Improved (0.0009 ---> 0.0016)
+[32mModel Saved
+Epoch [81 / 500] average loss generator vs. discrim.: 8.704655 vs. 0.001573
+[32mValid Score Improved (0.0016 ---> 0.0014)
+[32mModel Saved
+Epoch [82 / 500] average loss generator vs. discrim.: 8.622700 vs. 0.001391
+[32mValid Score Improved (0.0014 ---> 0.0013)
+[32mModel Saved
+Epoch [83 / 500] average loss generator vs. discrim.: 8.873238 vs. 0.001297
+[32mValid Score Improved (0.0013 ---> 0.0013)
+[32mModel Saved
+Epoch [84 / 500] average loss generator vs. discrim.: 8.999625 vs. 0.001268
+[32mValid Score Improved (0.0013 ---> 0.0011)
+[32mModel Saved
+Epoch [85 / 500] average loss generator vs. discrim.: 8.800587 vs. 0.001149
+[32mValid Score Improved (0.0011 ---> 0.0008)
+[32mModel Saved
+Epoch [86 / 500] average loss generator vs. discrim.: 8.844740 vs. 0.000772
+[32mValid Score Improved (0.0008 ---> 0.0012)
+[32mModel Saved
+Epoch [87 / 500] average loss generator vs. discrim.: 8.660309 vs. 0.001199
+[32mValid Score Improved (0.0012 ---> 0.0012)
+[32mModel Saved
+Epoch [88 / 500] average loss generator vs. discrim.: 8.757546 vs. 0.001212
+[32mValid Score Improved (0.0012 ---> 0.0012)
+[32mModel Saved
+Epoch [89 / 500] average loss generator vs. discrim.: 8.899324 vs. 0.001202
+[32mValid Score Improved (0.0012 ---> 0.0010)
+[32mModel Saved
+Epoch [90 / 500] average loss generator vs. discrim.: 8.643209 vs. 0.001023
+[32mValid Score Improved (0.0010 ---> 0.0013)
+[32mModel Saved
+Epoch [91 / 500] average loss generator vs. discrim.: 8.609838 vs. 0.001313
+[32mValid Score Improved (0.0013 ---> 0.0010)
+[32mModel Saved
+Epoch [92 / 500] average loss generator vs. discrim.: 8.777483 vs. 0.000963
+[32mValid Score Improved (0.0010 ---> 0.0014)
+[32mModel Saved
+Epoch [93 / 500] average loss generator vs. discrim.: 8.780476 vs. 0.001421
+[32mValid Score Improved (0.0014 ---> 0.0009)
+[32mModel Saved
+Epoch [94 / 500] average loss generator vs. discrim.: 8.623968 vs. 0.000864
+[32mValid Score Improved (0.0009 ---> 0.0008)
+[32mModel Saved
+Epoch [95 / 500] average loss generator vs. discrim.: 8.591789 vs. 0.000849
+[32mValid Score Improved (0.0008 ---> 0.0011)
+[32mModel Saved
+Epoch [96 / 500] average loss generator vs. discrim.: 8.494845 vs. 0.001125
+[32mValid Score Improved (0.0011 ---> 0.0009)
+[32mModel Saved
+Epoch [97 / 500] average loss generator vs. discrim.: 8.646114 vs. 0.000871
+[32mValid Score Improved (0.0009 ---> 0.0012)
+[32mModel Saved
+Epoch [98 / 500] average loss generator vs. discrim.: 8.666588 vs. 0.001204
+[32mValid Score Improved (0.0012 ---> 0.0013)
+[32mModel Saved
+Epoch [99 / 500] average loss generator vs. discrim.: 8.635120 vs. 0.001291
+[32mValid Score Improved (0.0013 ---> 0.0007)
+[32mModel Saved
+Epoch [100 / 500] average loss generator vs. discrim.: 8.965924 vs. 0.000656
+[32mValid Score Improved (0.0007 ---> 0.0009)
+[32mModel Saved
+Epoch [101 / 500] average loss generator vs. discrim.: 8.732521 vs. 0.000866
+[32mValid Score Improved (0.0009 ---> 0.0007)
+[32mModel Saved
+Epoch [102 / 500] average loss generator vs. discrim.: 8.700746 vs. 0.000705
+[32mValid Score Improved (0.0007 ---> 0.0008)
+[32mModel Saved
+Epoch [103 / 500] average loss generator vs. discrim.: 8.837308 vs. 0.000753
+[32mValid Score Improved (0.0008 ---> 0.0010)
+[32mModel Saved
+Epoch [104 / 500] average loss generator vs. discrim.: 8.397632 vs. 0.001008
+[32mValid Score Improved (0.0010 ---> 0.0012)
+[32mModel Saved
+Epoch [105 / 500] average loss generator vs. discrim.: 8.449328 vs. 0.001169
+[32mValid Score Improved (0.0012 ---> 0.0015)
+[32mModel Saved
+Epoch [106 / 500] average loss generator vs. discrim.: 9.136093 vs. 0.001491
+[32mValid Score Improved (0.0015 ---> 0.0004)
+[32mModel Saved
+Epoch [107 / 500] average loss generator vs. discrim.: 9.584186 vs. 0.000391
+[32mValid Score Improved (0.0004 ---> 0.0004)
+[32mModel Saved
+Epoch [108 / 500] average loss generator vs. discrim.: 8.888919 vs. 0.000428
+[32mValid Score Improved (0.0004 ---> 0.0007)
+[32mModel Saved
+Epoch [109 / 500] average loss generator vs. discrim.: 8.696902 vs. 0.000650
+[32mValid Score Improved (0.0007 ---> 0.0006)
+[32mModel Saved
+Epoch [110 / 500] average loss generator vs. discrim.: 8.563575 vs. 0.000575
+[32mValid Score Improved (0.0006 ---> 0.0009)
+[32mModel Saved
+Epoch [111 / 500] average loss generator vs. discrim.: 8.310114 vs. 0.000915
+[32mValid Score Improved (0.0009 ---> 0.0011)
+[32mModel Saved
+Epoch [112 / 500] average loss generator vs. discrim.: 8.541939 vs. 0.001118
+[32mValid Score Improved (0.0011 ---> 0.0010)
+[32mModel Saved
+Epoch [113 / 500] average loss generator vs. discrim.: 8.904911 vs. 0.000991
+[32mValid Score Improved (0.0010 ---> 0.0008)
+[32mModel Saved
+Epoch [114 / 500] average loss generator vs. discrim.: 9.011635 vs. 0.000767
+[32mValid Score Improved (0.0008 ---> 0.0007)
+[32mModel Saved
+Epoch [115 / 500] average loss generator vs. discrim.: 8.870575 vs. 0.000659
+[32mValid Score Improved (0.0007 ---> 0.0006)
+[32mModel Saved
+Epoch [116 / 500] average loss generator vs. discrim.: 8.703658 vs. 0.000585
+[32mValid Score Improved (0.0006 ---> 0.0008)
+[32mModel Saved
+Epoch [117 / 500] average loss generator vs. discrim.: 8.811339 vs. 0.000839
+[32mValid Score Improved (0.0008 ---> 0.0007)
+[32mModel Saved
+Epoch [118 / 500] average loss generator vs. discrim.: 8.660262 vs. 0.000685
+[32mValid Score Improved (0.0007 ---> 0.0008)
+[32mModel Saved
+Epoch [119 / 500] average loss generator vs. discrim.: 8.689621 vs. 0.000833
+[32mValid Score Improved (0.0008 ---> 0.0008)
+[32mModel Saved
+Epoch [120 / 500] average loss generator vs. discrim.: 8.588136 vs. 0.000756
+[32mValid Score Improved (0.0008 ---> 0.0006)
+[32mModel Saved
+Epoch [121 / 500] average loss generator vs. discrim.: 8.652256 vs. 0.000598
+[32mValid Score Improved (0.0006 ---> 0.0009)
+[32mModel Saved
+Epoch [122 / 500] average loss generator vs. discrim.: 8.507868 vs. 0.000945
+[32mValid Score Improved (0.0009 ---> 0.0005)
+[32mModel Saved
+Epoch [123 / 500] average loss generator vs. discrim.: 9.024180 vs. 0.000489
+[32mValid Score Improved (0.0005 ---> 0.0009)
+[32mModel Saved
+Epoch [124 / 500] average loss generator vs. discrim.: 8.826880 vs. 0.000894
+[32mValid Score Improved (0.0009 ---> 0.0006)
+[32mModel Saved
+Epoch [125 / 500] average loss generator vs. discrim.: 8.833612 vs. 0.000593
+[32mValid Score Improved (0.0006 ---> 0.0005)
+[32mModel Saved
+Epoch [126 / 500] average loss generator vs. discrim.: 8.814196 vs. 0.000483
+[32mValid Score Improved (0.0005 ---> 0.0008)
+[32mModel Saved
+Epoch [127 / 500] average loss generator vs. discrim.: 8.746544 vs. 0.000810
+[32mValid Score Improved (0.0008 ---> 0.0005)
+[32mModel Saved
+Epoch [128 / 500] average loss generator vs. discrim.: 8.754419 vs. 0.000526
+[32mValid Score Improved (0.0005 ---> 0.0011)
+[32mModel Saved
+Epoch [129 / 500] average loss generator vs. discrim.: 8.484021 vs. 0.001079
+[32mValid Score Improved (0.0011 ---> 0.0006)
+[32mModel Saved
+Epoch [130 / 500] average loss generator vs. discrim.: 8.674087 vs. 0.000642
+[32mValid Score Improved (0.0006 ---> 0.0004)
+[32mModel Saved
+Epoch [131 / 500] average loss generator vs. discrim.: 8.893783 vs. 0.000434
+[32mValid Score Improved (0.0004 ---> 0.0005)
+[32mModel Saved
+Epoch [132 / 500] average loss generator vs. discrim.: 8.681194 vs. 0.000541
+[32mValid Score Improved (0.0005 ---> 0.0006)
+[32mModel Saved
+Epoch [133 / 500] average loss generator vs. discrim.: 8.648915 vs. 0.000621
+[32mValid Score Improved (0.0006 ---> 0.0005)
+[32mModel Saved
+Epoch [134 / 500] average loss generator vs. discrim.: 8.831717 vs. 0.000511
+[32mValid Score Improved (0.0005 ---> 0.0006)
+[32mModel Saved
+Epoch [135 / 500] average loss generator vs. discrim.: 8.683880 vs. 0.000557
+[32mValid Score Improved (0.0006 ---> 0.0007)
+[32mModel Saved
+Epoch [136 / 500] average loss generator vs. discrim.: 8.546345 vs. 0.000729
+[32mValid Score Improved (0.0007 ---> 0.0006)
+[32mModel Saved
+Epoch [137 / 500] average loss generator vs. discrim.: 8.659600 vs. 0.000623
+[32mValid Score Improved (0.0006 ---> 0.0004)
+[32mModel Saved
+Epoch [138 / 500] average loss generator vs. discrim.: 8.898180 vs. 0.000415
+[32mValid Score Improved (0.0004 ---> 0.0004)
+[32mModel Saved
+Epoch [139 / 500] average loss generator vs. discrim.: 8.862811 vs. 0.000372
+[32mValid Score Improved (0.0004 ---> 0.0005)
+[32mModel Saved
+Epoch [140 / 500] average loss generator vs. discrim.: 8.610108 vs. 0.000494
+[32mValid Score Improved (0.0005 ---> 0.0005)
+[32mModel Saved
+Epoch [141 / 500] average loss generator vs. discrim.: 8.612509 vs. 0.000497
+[32mValid Score Improved (0.0005 ---> 0.0005)
+[32mModel Saved
+Epoch [142 / 500] average loss generator vs. discrim.: 8.601549 vs. 0.000492
+[32mValid Score Improved (0.0005 ---> 0.0007)
+[32mModel Saved
+Epoch [143 / 500] average loss generator vs. discrim.: 8.827092 vs. 0.000730
+[32mValid Score Improved (0.0007 ---> 0.0005)
+[32mModel Saved
+Epoch [144 / 500] average loss generator vs. discrim.: 8.963056 vs. 0.000474
+[32mValid Score Improved (0.0005 ---> 0.0005)
+[32mModel Saved
+Epoch [145 / 500] average loss generator vs. discrim.: 8.868031 vs. 0.000493
+[32mValid Score Improved (0.0005 ---> 0.0004)
+[32mModel Saved
+Epoch [146 / 500] average loss generator vs. discrim.: 8.982984 vs. 0.000365
+[32mValid Score Improved (0.0004 ---> 0.0005)
+[32mModel Saved
+Epoch [147 / 500] average loss generator vs. discrim.: 8.745769 vs. 0.000458
+[32mValid Score Improved (0.0005 ---> 0.0005)
+[32mModel Saved
+Epoch [148 / 500] average loss generator vs. discrim.: 8.594217 vs. 0.000483
+[32mValid Score Improved (0.0005 ---> 0.0004)
+[32mModel Saved
+Epoch [149 / 500] average loss generator vs. discrim.: 8.759100 vs. 0.000425
+[32mValid Score Improved (0.0004 ---> 0.0004)
+[32mModel Saved
+Epoch [150 / 500] average loss generator vs. discrim.: 8.715629 vs. 0.000396
+[32mValid Score Improved (0.0004 ---> 0.0005)
+[32mModel Saved
+Epoch [151 / 500] average loss generator vs. discrim.: 8.515656 vs. 0.000489
+[32mValid Score Improved (0.0005 ---> 0.0006)
+[32mModel Saved
+Epoch [152 / 500] average loss generator vs. discrim.: 8.502750 vs. 0.000601
+[32mValid Score Improved (0.0006 ---> 0.0006)
+[32mModel Saved
+Epoch [153 / 500] average loss generator vs. discrim.: 8.678016 vs. 0.000619
+[32mValid Score Improved (0.0006 ---> 0.0005)
+[32mModel Saved
+Epoch [154 / 500] average loss generator vs. discrim.: 8.803019 vs. 0.000457
+[32mValid Score Improved (0.0005 ---> 0.0004)
+[32mModel Saved
+Epoch [155 / 500] average loss generator vs. discrim.: 8.932508 vs. 0.000366
+[32mValid Score Improved (0.0004 ---> 0.0004)
+[32mModel Saved
+Epoch [156 / 500] average loss generator vs. discrim.: 8.792780 vs. 0.000410
+[32mValid Score Improved (0.0004 ---> 0.0004)
+[32mModel Saved
+Epoch [157 / 500] average loss generator vs. discrim.: 8.707863 vs. 0.000437
+[32mValid Score Improved (0.0004 ---> 0.0005)
+[32mModel Saved
+Epoch [158 / 500] average loss generator vs. discrim.: 8.653337 vs. 0.000483
+[32mValid Score Improved (0.0005 ---> 0.0004)
+[32mModel Saved
+Epoch [159 / 500] average loss generator vs. discrim.: 8.926206 vs. 0.000387
+[32mValid Score Improved (0.0004 ---> 0.0004)
+[32mModel Saved
+Epoch [160 / 500] average loss generator vs. discrim.: 8.710996 vs. 0.000441
+[32mValid Score Improved (0.0004 ---> 0.0005)
+[32mModel Saved
+Epoch [161 / 500] average loss generator vs. discrim.: 9.117167 vs. 0.000498
+[32mValid Score Improved (0.0005 ---> 0.0005)
+[32mModel Saved
+Epoch [162 / 500] average loss generator vs. discrim.: 8.636264 vs. 0.000524
+[32mValid Score Improved (0.0005 ---> 0.0004)
+[32mModel Saved
+Epoch [163 / 500] average loss generator vs. discrim.: 8.846541 vs. 0.000395
+[32mValid Score Improved (0.0004 ---> 0.0004)
+[32mModel Saved
+Epoch [164 / 500] average loss generator vs. discrim.: 8.870037 vs. 0.000357
+[32mValid Score Improved (0.0004 ---> 0.0004)
+[32mModel Saved
+Epoch [165 / 500] average loss generator vs. discrim.: 8.739960 vs. 0.000420
+[32mValid Score Improved (0.0004 ---> 0.0005)
+[32mModel Saved
+Epoch [166 / 500] average loss generator vs. discrim.: 8.660959 vs. 0.000469
+[32mValid Score Improved (0.0005 ---> 0.0004)
+[32mModel Saved
+Epoch [167 / 500] average loss generator vs. discrim.: 8.717832 vs. 0.000434
+[32mValid Score Improved (0.0004 ---> 0.0005)
+[32mModel Saved
+Epoch [168 / 500] average loss generator vs. discrim.: 8.876168 vs. 0.000527
+[32mValid Score Improved (0.0005 ---> 0.0004)
+[32mModel Saved
+Epoch [169 / 500] average loss generator vs. discrim.: 8.912972 vs. 0.000445
+[32mValid Score Improved (0.0004 ---> 0.0004)
+[32mModel Saved
+Epoch [170 / 500] average loss generator vs. discrim.: 9.054179 vs. 0.000407
+[32mValid Score Improved (0.0004 ---> 0.0004)
+[32mModel Saved
+Epoch [171 / 500] average loss generator vs. discrim.: 8.921670 vs. 0.000377
+[32mValid Score Improved (0.0004 ---> 0.0003)
+[32mModel Saved
+Epoch [172 / 500] average loss generator vs. discrim.: 9.007622 vs. 0.000300
+[32mValid Score Improved (0.0003 ---> 0.0005)
+[32mModel Saved
+Epoch [173 / 500] average loss generator vs. discrim.: 8.715726 vs. 0.000495
+[32mValid Score Improved (0.0005 ---> 0.0004)
+[32mModel Saved
+Epoch [174 / 500] average loss generator vs. discrim.: 9.055707 vs. 0.000408
+[32mValid Score Improved (0.0004 ---> 0.0004)
+[32mModel Saved
+Epoch [175 / 500] average loss generator vs. discrim.: 8.922193 vs. 0.000432
+[32mValid Score Improved (0.0004 ---> 0.0004)
+[32mModel Saved
+Epoch [176 / 500] average loss generator vs. discrim.: 8.915208 vs. 0.000366
+[32mValid Score Improved (0.0004 ---> 0.0004)
+[32mModel Saved
+Epoch [177 / 500] average loss generator vs. discrim.: 8.869087 vs. 0.000360
+[32mValid Score Improved (0.0004 ---> 0.0005)
+[32mModel Saved
+Epoch [178 / 500] average loss generator vs. discrim.: 8.728947 vs. 0.000472
+[32mValid Score Improved (0.0005 ---> 0.0004)
+[32mModel Saved
+Epoch [179 / 500] average loss generator vs. discrim.: 9.009834 vs. 0.000377
+[32mValid Score Improved (0.0004 ---> 0.0004)
+[32mModel Saved
+Epoch [180 / 500] average loss generator vs. discrim.: 8.899500 vs. 0.000387
+[32mValid Score Improved (0.0004 ---> 0.0003)
+[32mModel Saved
+Epoch [181 / 500] average loss generator vs. discrim.: 9.063663 vs. 0.000313
+[32mValid Score Improved (0.0003 ---> 0.0004)
+[32mModel Saved
+Epoch [182 / 500] average loss generator vs. discrim.: 9.041538 vs. 0.000380
+[32mValid Score Improved (0.0004 ---> 0.0004)
+[32mModel Saved
+Epoch [183 / 500] average loss generator vs. discrim.: 8.793541 vs. 0.000401
+[32mValid Score Improved (0.0004 ---> 0.0005)
+[32mModel Saved
+Epoch [184 / 500] average loss generator vs. discrim.: 8.644359 vs. 0.000480
+[32mValid Score Improved (0.0005 ---> 0.0004)
+[32mModel Saved
+Epoch [185 / 500] average loss generator vs. discrim.: 8.900072 vs. 0.000437
+[32mValid Score Improved (0.0004 ---> 0.0004)
+[32mModel Saved
+Epoch [186 / 500] average loss generator vs. discrim.: 8.906227 vs. 0.000371
+[32mValid Score Improved (0.0004 ---> 0.0003)
+[32mModel Saved
+Epoch [187 / 500] average loss generator vs. discrim.: 9.070738 vs. 0.000348
+[32mValid Score Improved (0.0003 ---> 0.0004)
+[32mModel Saved
+Epoch [188 / 500] average loss generator vs. discrim.: 8.746038 vs. 0.000410
+[32mValid Score Improved (0.0004 ---> 0.0003)
+[32mModel Saved
+Epoch [189 / 500] average loss generator vs. discrim.: 8.936485 vs. 0.000349
+[32mValid Score Improved (0.0003 ---> 0.0004)
+[32mModel Saved
+Epoch [190 / 500] average loss generator vs. discrim.: 9.005759 vs. 0.000361
+[32mValid Score Improved (0.0004 ---> 0.0004)
+[32mModel Saved
+Epoch [191 / 500] average loss generator vs. discrim.: 8.886141 vs. 0.000350
+[32mValid Score Improved (0.0004 ---> 0.0004)
+[32mModel Saved
+Epoch [192 / 500] average loss generator vs. discrim.: 8.906109 vs. 0.000352
+[32mValid Score Improved (0.0004 ---> 0.0004)
+[32mModel Saved
+Epoch [193 / 500] average loss generator vs. discrim.: 8.950395 vs. 0.000350
+[32mValid Score Improved (0.0004 ---> 0.0003)
+[32mModel Saved
+Epoch [194 / 500] average loss generator vs. discrim.: 9.517699 vs. 0.000287
+[32mValid Score Improved (0.0003 ---> 0.0003)
+[32mModel Saved
+Epoch [195 / 500] average loss generator vs. discrim.: 9.218082 vs. 0.000294
+[32mValid Score Improved (0.0003 ---> 0.0003)
+[32mModel Saved
+Epoch [196 / 500] average loss generator vs. discrim.: 8.956269 vs. 0.000342
+[32mValid Score Improved (0.0003 ---> 0.0004)
+[32mModel Saved
+Epoch [197 / 500] average loss generator vs. discrim.: 8.962344 vs. 0.000358
+[32mValid Score Improved (0.0004 ---> 0.0003)
+[32mModel Saved
+Epoch [198 / 500] average loss generator vs. discrim.: 9.060637 vs. 0.000262
+[32mValid Score Improved (0.0003 ---> 0.0003)
+[32mModel Saved
+Epoch [199 / 500] average loss generator vs. discrim.: 8.896414 vs. 0.000342
+[32mValid Score Improved (0.0003 ---> 0.0003)
+[32mModel Saved
+Epoch [200 / 500] average loss generator vs. discrim.: 9.065739 vs. 0.000304
+[32mValid Score Improved (0.0003 ---> 0.0003)
+[32mModel Saved
+Epoch [201 / 500] average loss generator vs. discrim.: 9.018540 vs. 0.000314
+[32mValid Score Improved (0.0003 ---> 0.0003)
+[32mModel Saved
+Epoch [202 / 500] average loss generator vs. discrim.: 9.130816 vs. 0.000288
+[32mValid Score Improved (0.0003 ---> 0.0004)
+[32mModel Saved
+Epoch [203 / 500] average loss generator vs. discrim.: 9.087511 vs. 0.000368
+[32mValid Score Improved (0.0004 ---> 0.0003)
+[32mModel Saved
+Epoch [204 / 500] average loss generator vs. discrim.: 9.364198 vs. 0.000264
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [205 / 500] average loss generator vs. discrim.: 9.400881 vs. 0.000224
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [206 / 500] average loss generator vs. discrim.: 8.962003 vs. 0.000270
+[32mValid Score Improved (0.0003 ---> 0.0003)
+[32mModel Saved
+Epoch [207 / 500] average loss generator vs. discrim.: 9.062436 vs. 0.000281
+[32mValid Score Improved (0.0003 ---> 0.0003)
+[32mModel Saved
+Epoch [208 / 500] average loss generator vs. discrim.: 9.027224 vs. 0.000340
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [209 / 500] average loss generator vs. discrim.: 9.386497 vs. 0.000200
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [210 / 500] average loss generator vs. discrim.: 8.931341 vs. 0.000332
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [211 / 500] average loss generator vs. discrim.: 9.287234 vs. 0.000212
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [212 / 500] average loss generator vs. discrim.: 9.114241 vs. 0.000274
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [213 / 500] average loss generator vs. discrim.: 9.068420 vs. 0.000248
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [214 / 500] average loss generator vs. discrim.: 9.084976 vs. 0.000273
+[32mValid Score Improved (0.0003 ---> 0.0003)
+[32mModel Saved
+Epoch [215 / 500] average loss generator vs. discrim.: 8.913074 vs. 0.000315
+[32mValid Score Improved (0.0003 ---> 0.0003)
+[32mModel Saved
+Epoch [216 / 500] average loss generator vs. discrim.: 9.068823 vs. 0.000263
+[32mValid Score Improved (0.0003 ---> 0.0003)
+[32mModel Saved
+Epoch [217 / 500] average loss generator vs. discrim.: 9.183717 vs. 0.000268
+[32mValid Score Improved (0.0003 ---> 0.0003)
+[32mModel Saved
+Epoch [218 / 500] average loss generator vs. discrim.: 9.038785 vs. 0.000318
+[32mValid Score Improved (0.0003 ---> 0.0004)
+[32mModel Saved
+Epoch [219 / 500] average loss generator vs. discrim.: 9.396152 vs. 0.000373
+[32mValid Score Improved (0.0004 ---> 0.0003)
+[32mModel Saved
+Epoch [220 / 500] average loss generator vs. discrim.: 9.148528 vs. 0.000270
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [221 / 500] average loss generator vs. discrim.: 9.457648 vs. 0.000225
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [222 / 500] average loss generator vs. discrim.: 9.378928 vs. 0.000244
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [223 / 500] average loss generator vs. discrim.: 9.339280 vs. 0.000276
+[32mValid Score Improved (0.0003 ---> 0.0003)
+[32mModel Saved
+Epoch [224 / 500] average loss generator vs. discrim.: 9.162013 vs. 0.000258
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [225 / 500] average loss generator vs. discrim.: 9.363682 vs. 0.000225
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [226 / 500] average loss generator vs. discrim.: 8.947907 vs. 0.000311
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [227 / 500] average loss generator vs. discrim.: 9.600314 vs. 0.000175
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [228 / 500] average loss generator vs. discrim.: 9.292496 vs. 0.000259
+[32mValid Score Improved (0.0003 ---> 0.0003)
+[32mModel Saved
+Epoch [229 / 500] average loss generator vs. discrim.: 8.931861 vs. 0.000274
+[32mValid Score Improved (0.0003 ---> 0.0003)
+[32mModel Saved
+Epoch [230 / 500] average loss generator vs. discrim.: 8.957417 vs. 0.000298
+[32mValid Score Improved (0.0003 ---> 0.0003)
+[32mModel Saved
+Epoch [231 / 500] average loss generator vs. discrim.: 9.183356 vs. 0.000292
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [232 / 500] average loss generator vs. discrim.: 9.418285 vs. 0.000229
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [233 / 500] average loss generator vs. discrim.: 9.373519 vs. 0.000220
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [234 / 500] average loss generator vs. discrim.: 9.225465 vs. 0.000222
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [235 / 500] average loss generator vs. discrim.: 9.176196 vs. 0.000289
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [236 / 500] average loss generator vs. discrim.: 9.299603 vs. 0.000245
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [237 / 500] average loss generator vs. discrim.: 9.426302 vs. 0.000187
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [238 / 500] average loss generator vs. discrim.: 9.130812 vs. 0.000244
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [239 / 500] average loss generator vs. discrim.: 9.141737 vs. 0.000226
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [240 / 500] average loss generator vs. discrim.: 9.132755 vs. 0.000230
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [241 / 500] average loss generator vs. discrim.: 9.306788 vs. 0.000186
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [242 / 500] average loss generator vs. discrim.: 9.202838 vs. 0.000237
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [243 / 500] average loss generator vs. discrim.: 9.173579 vs. 0.000241
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [244 / 500] average loss generator vs. discrim.: 9.224862 vs. 0.000226
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [245 / 500] average loss generator vs. discrim.: 9.519017 vs. 0.000175
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [246 / 500] average loss generator vs. discrim.: 9.175188 vs. 0.000267
+[32mValid Score Improved (0.0003 ---> 0.0003)
+[32mModel Saved
+Epoch [247 / 500] average loss generator vs. discrim.: 9.185040 vs. 0.000250
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [248 / 500] average loss generator vs. discrim.: 9.145856 vs. 0.000207
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [249 / 500] average loss generator vs. discrim.: 9.251842 vs. 0.000250
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [250 / 500] average loss generator vs. discrim.: 9.424663 vs. 0.000226
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [251 / 500] average loss generator vs. discrim.: 9.536234 vs. 0.000193
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [252 / 500] average loss generator vs. discrim.: 9.438695 vs. 0.000184
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [253 / 500] average loss generator vs. discrim.: 9.382163 vs. 0.000204
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [254 / 500] average loss generator vs. discrim.: 9.370691 vs. 0.000250
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [255 / 500] average loss generator vs. discrim.: 9.094424 vs. 0.000219
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [256 / 500] average loss generator vs. discrim.: 9.153701 vs. 0.000238
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [257 / 500] average loss generator vs. discrim.: 9.279572 vs. 0.000273
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [258 / 500] average loss generator vs. discrim.: 9.400994 vs. 0.000201
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [259 / 500] average loss generator vs. discrim.: 9.354837 vs. 0.000238
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [260 / 500] average loss generator vs. discrim.: 9.318432 vs. 0.000245
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [261 / 500] average loss generator vs. discrim.: 9.673878 vs. 0.000145
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [262 / 500] average loss generator vs. discrim.: 9.427008 vs. 0.000235
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [263 / 500] average loss generator vs. discrim.: 9.442325 vs. 0.000169
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [264 / 500] average loss generator vs. discrim.: 9.459949 vs. 0.000158
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [265 / 500] average loss generator vs. discrim.: 9.435613 vs. 0.000155
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [266 / 500] average loss generator vs. discrim.: 9.246191 vs. 0.000236
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [267 / 500] average loss generator vs. discrim.: 9.808159 vs. 0.000164
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [268 / 500] average loss generator vs. discrim.: 9.243611 vs. 0.000277
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [269 / 500] average loss generator vs. discrim.: 9.563635 vs. 0.000172
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [270 / 500] average loss generator vs. discrim.: 9.279493 vs. 0.000259
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [271 / 500] average loss generator vs. discrim.: 9.303581 vs. 0.000241
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [272 / 500] average loss generator vs. discrim.: 9.490786 vs. 0.000189
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [273 / 500] average loss generator vs. discrim.: 9.375615 vs. 0.000176
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [274 / 500] average loss generator vs. discrim.: 9.468389 vs. 0.000155
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [275 / 500] average loss generator vs. discrim.: 9.483902 vs. 0.000166
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [276 / 500] average loss generator vs. discrim.: 9.349173 vs. 0.000186
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [277 / 500] average loss generator vs. discrim.: 9.198853 vs. 0.000219
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [278 / 500] average loss generator vs. discrim.: 9.346741 vs. 0.000211
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [279 / 500] average loss generator vs. discrim.: 9.627336 vs. 0.000193
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [280 / 500] average loss generator vs. discrim.: 9.165064 vs. 0.000220
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [281 / 500] average loss generator vs. discrim.: 9.278800 vs. 0.000224
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [282 / 500] average loss generator vs. discrim.: 9.468128 vs. 0.000197
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [283 / 500] average loss generator vs. discrim.: 9.166613 vs. 0.000263
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [284 / 500] average loss generator vs. discrim.: 9.647425 vs. 0.000159
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [285 / 500] average loss generator vs. discrim.: 9.655466 vs. 0.000125
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [286 / 500] average loss generator vs. discrim.: 9.449858 vs. 0.000195
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [287 / 500] average loss generator vs. discrim.: 9.328802 vs. 0.000193
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [288 / 500] average loss generator vs. discrim.: 9.704917 vs. 0.000152
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [289 / 500] average loss generator vs. discrim.: 9.203002 vs. 0.000203
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [290 / 500] average loss generator vs. discrim.: 9.273163 vs. 0.000240
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [291 / 500] average loss generator vs. discrim.: 10.268261 vs. 0.000152
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [292 / 500] average loss generator vs. discrim.: 9.983253 vs. 0.000168
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [293 / 500] average loss generator vs. discrim.: 9.592174 vs. 0.000128
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [294 / 500] average loss generator vs. discrim.: 9.337066 vs. 0.000224
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [295 / 500] average loss generator vs. discrim.: 9.877004 vs. 0.000130
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [296 / 500] average loss generator vs. discrim.: 9.531281 vs. 0.000146
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [297 / 500] average loss generator vs. discrim.: 9.638226 vs. 0.000132
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [298 / 500] average loss generator vs. discrim.: 9.564047 vs. 0.000184
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [299 / 500] average loss generator vs. discrim.: 9.843298 vs. 0.000138
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [300 / 500] average loss generator vs. discrim.: 10.160731 vs. 0.000101
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [301 / 500] average loss generator vs. discrim.: 9.221948 vs. 0.000194
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [302 / 500] average loss generator vs. discrim.: 9.602201 vs. 0.000175
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [303 / 500] average loss generator vs. discrim.: 9.431123 vs. 0.000230
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [304 / 500] average loss generator vs. discrim.: 9.812094 vs. 0.000171
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [305 / 500] average loss generator vs. discrim.: 9.816535 vs. 0.000134
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [306 / 500] average loss generator vs. discrim.: 9.664704 vs. 0.000124
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [307 / 500] average loss generator vs. discrim.: 9.946564 vs. 0.000166
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [308 / 500] average loss generator vs. discrim.: 9.451171 vs. 0.000213
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [309 / 500] average loss generator vs. discrim.: 9.757628 vs. 0.000122
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [310 / 500] average loss generator vs. discrim.: 9.590481 vs. 0.000216
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [311 / 500] average loss generator vs. discrim.: 10.167358 vs. 0.000116
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [312 / 500] average loss generator vs. discrim.: 9.888529 vs. 0.000171
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [313 / 500] average loss generator vs. discrim.: 10.072251 vs. 0.000131
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [314 / 500] average loss generator vs. discrim.: 9.737953 vs. 0.000109
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [315 / 500] average loss generator vs. discrim.: 10.111074 vs. 0.000116
+[32mValid Score Improved (0.0001 ---> 0.0004)
+[32mModel Saved
+Epoch [316 / 500] average loss generator vs. discrim.: 9.671280 vs. 0.000367
+[32mValid Score Improved (0.0004 ---> 0.0002)
+[32mModel Saved
+Epoch [317 / 500] average loss generator vs. discrim.: 9.926349 vs. 0.000180
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [318 / 500] average loss generator vs. discrim.: 10.318510 vs. 0.000122
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [319 / 500] average loss generator vs. discrim.: 9.728106 vs. 0.000137
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [320 / 500] average loss generator vs. discrim.: 9.870037 vs. 0.000161
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [321 / 500] average loss generator vs. discrim.: 9.836759 vs. 0.000210
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [322 / 500] average loss generator vs. discrim.: 10.159414 vs. 0.000087
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [323 / 500] average loss generator vs. discrim.: 9.956040 vs. 0.000085
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [324 / 500] average loss generator vs. discrim.: 9.489398 vs. 0.000168
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [325 / 500] average loss generator vs. discrim.: 10.292114 vs. 0.000107
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [326 / 500] average loss generator vs. discrim.: 10.187133 vs. 0.000179
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [327 / 500] average loss generator vs. discrim.: 9.549249 vs. 0.000182
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [328 / 500] average loss generator vs. discrim.: 10.232105 vs. 0.000101
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [329 / 500] average loss generator vs. discrim.: 9.699989 vs. 0.000224
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [330 / 500] average loss generator vs. discrim.: 9.662169 vs. 0.000211
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [331 / 500] average loss generator vs. discrim.: 9.784887 vs. 0.000252
+[32mValid Score Improved (0.0003 ---> 0.0001)
+[32mModel Saved
+Epoch [332 / 500] average loss generator vs. discrim.: 10.115349 vs. 0.000131
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [333 / 500] average loss generator vs. discrim.: 11.751757 vs. 0.000098
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [334 / 500] average loss generator vs. discrim.: 9.963036 vs. 0.000116
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [335 / 500] average loss generator vs. discrim.: 9.656860 vs. 0.000117
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [336 / 500] average loss generator vs. discrim.: 9.907861 vs. 0.000163
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [337 / 500] average loss generator vs. discrim.: 9.568210 vs. 0.000297
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [338 / 500] average loss generator vs. discrim.: 10.187284 vs. 0.000240
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [339 / 500] average loss generator vs. discrim.: 10.044644 vs. 0.000154
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [340 / 500] average loss generator vs. discrim.: 9.888477 vs. 0.000132
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [341 / 500] average loss generator vs. discrim.: 10.285692 vs. 0.000090
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [342 / 500] average loss generator vs. discrim.: 9.712383 vs. 0.000189
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [343 / 500] average loss generator vs. discrim.: 9.887069 vs. 0.000132
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [344 / 500] average loss generator vs. discrim.: 9.657522 vs. 0.000203
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [345 / 500] average loss generator vs. discrim.: 9.614702 vs. 0.000314
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [346 / 500] average loss generator vs. discrim.: 9.703343 vs. 0.000152
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [347 / 500] average loss generator vs. discrim.: 10.238564 vs. 0.000179
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [348 / 500] average loss generator vs. discrim.: 9.701374 vs. 0.000163
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [349 / 500] average loss generator vs. discrim.: 10.077888 vs. 0.000210
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [350 / 500] average loss generator vs. discrim.: 10.422963 vs. 0.000097
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [351 / 500] average loss generator vs. discrim.: 10.367262 vs. 0.000203
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [352 / 500] average loss generator vs. discrim.: 9.575068 vs. 0.000139
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [353 / 500] average loss generator vs. discrim.: 9.842817 vs. 0.000142
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [354 / 500] average loss generator vs. discrim.: 10.570019 vs. 0.000156
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [355 / 500] average loss generator vs. discrim.: 9.792809 vs. 0.000254
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [356 / 500] average loss generator vs. discrim.: 9.956864 vs. 0.000228
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [357 / 500] average loss generator vs. discrim.: 10.363474 vs. 0.000196
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [358 / 500] average loss generator vs. discrim.: 10.121561 vs. 0.000105
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [359 / 500] average loss generator vs. discrim.: 9.849098 vs. 0.000177
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [360 / 500] average loss generator vs. discrim.: 9.385067 vs. 0.000163
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [361 / 500] average loss generator vs. discrim.: 9.965720 vs. 0.000212
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [362 / 500] average loss generator vs. discrim.: 9.334608 vs. 0.000305
+[32mValid Score Improved (0.0003 ---> 0.0003)
+[32mModel Saved
+Epoch [363 / 500] average loss generator vs. discrim.: 10.045007 vs. 0.000264
+[32mValid Score Improved (0.0003 ---> 0.0001)
+[32mModel Saved
+Epoch [364 / 500] average loss generator vs. discrim.: 11.070380 vs. 0.000128
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [365 / 500] average loss generator vs. discrim.: 9.814071 vs. 0.000146
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [366 / 500] average loss generator vs. discrim.: 9.585308 vs. 0.000208
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [367 / 500] average loss generator vs. discrim.: 9.385818 vs. 0.000183
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [368 / 500] average loss generator vs. discrim.: 10.226671 vs. 0.000126
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [369 / 500] average loss generator vs. discrim.: 10.196570 vs. 0.000193
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [370 / 500] average loss generator vs. discrim.: 10.017709 vs. 0.000162
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [371 / 500] average loss generator vs. discrim.: 9.664803 vs. 0.000197
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [372 / 500] average loss generator vs. discrim.: 9.807022 vs. 0.000260
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [373 / 500] average loss generator vs. discrim.: 9.590994 vs. 0.000184
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [374 / 500] average loss generator vs. discrim.: 9.619754 vs. 0.000178
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [375 / 500] average loss generator vs. discrim.: 9.376994 vs. 0.000264
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [376 / 500] average loss generator vs. discrim.: 10.125974 vs. 0.000169
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [377 / 500] average loss generator vs. discrim.: 10.982752 vs. 0.000144
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [378 / 500] average loss generator vs. discrim.: 9.819288 vs. 0.000199
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [379 / 500] average loss generator vs. discrim.: 9.482246 vs. 0.000231
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [380 / 500] average loss generator vs. discrim.: 9.520714 vs. 0.000303
+[32mValid Score Improved (0.0003 ---> 0.0003)
+[32mModel Saved
+Epoch [381 / 500] average loss generator vs. discrim.: 9.698861 vs. 0.000255
+[32mValid Score Improved (0.0003 ---> 0.0001)
+[32mModel Saved
+Epoch [382 / 500] average loss generator vs. discrim.: 9.958029 vs. 0.000130
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [383 / 500] average loss generator vs. discrim.: 9.547617 vs. 0.000200
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [384 / 500] average loss generator vs. discrim.: 9.258975 vs. 0.000244
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [385 / 500] average loss generator vs. discrim.: 9.646117 vs. 0.000153
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [386 / 500] average loss generator vs. discrim.: 9.725837 vs. 0.000335
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [387 / 500] average loss generator vs. discrim.: 10.729035 vs. 0.000210
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [388 / 500] average loss generator vs. discrim.: 10.643611 vs. 0.000107
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [389 / 500] average loss generator vs. discrim.: 10.181606 vs. 0.000112
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [390 / 500] average loss generator vs. discrim.: 10.697098 vs. 0.000182
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [391 / 500] average loss generator vs. discrim.: 9.675015 vs. 0.000202
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [392 / 500] average loss generator vs. discrim.: 9.303716 vs. 0.000211
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [393 / 500] average loss generator vs. discrim.: 9.611468 vs. 0.000168
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [394 / 500] average loss generator vs. discrim.: 9.615647 vs. 0.000171
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [395 / 500] average loss generator vs. discrim.: 9.406661 vs. 0.000298
+[32mValid Score Improved (0.0003 ---> 0.0003)
+[32mModel Saved
+Epoch [396 / 500] average loss generator vs. discrim.: 9.528018 vs. 0.000259
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [397 / 500] average loss generator vs. discrim.: 9.651234 vs. 0.000230
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [398 / 500] average loss generator vs. discrim.: 9.940574 vs. 0.000221
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [399 / 500] average loss generator vs. discrim.: 9.480477 vs. 0.000156
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [400 / 500] average loss generator vs. discrim.: 9.519466 vs. 0.000217
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [401 / 500] average loss generator vs. discrim.: 9.713376 vs. 0.000189
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [402 / 500] average loss generator vs. discrim.: 9.501611 vs. 0.000234
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [403 / 500] average loss generator vs. discrim.: 9.875198 vs. 0.000193
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [404 / 500] average loss generator vs. discrim.: 10.211240 vs. 0.000232
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [405 / 500] average loss generator vs. discrim.: 9.816323 vs. 0.000197
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [406 / 500] average loss generator vs. discrim.: 10.164336 vs. 0.000117
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [407 / 500] average loss generator vs. discrim.: 9.960346 vs. 0.000163
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [408 / 500] average loss generator vs. discrim.: 9.589525 vs. 0.000284
+[32mValid Score Improved (0.0003 ---> 0.0003)
+[32mModel Saved
+Epoch [409 / 500] average loss generator vs. discrim.: 10.313965 vs. 0.000253
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [410 / 500] average loss generator vs. discrim.: 9.913048 vs. 0.000156
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [411 / 500] average loss generator vs. discrim.: 9.739389 vs. 0.000149
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [412 / 500] average loss generator vs. discrim.: 9.800055 vs. 0.000178
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [413 / 500] average loss generator vs. discrim.: 9.382240 vs. 0.000280
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [414 / 500] average loss generator vs. discrim.: 9.690675 vs. 0.000217
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [415 / 500] average loss generator vs. discrim.: 9.665144 vs. 0.000317
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [416 / 500] average loss generator vs. discrim.: 9.761217 vs. 0.000200
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [417 / 500] average loss generator vs. discrim.: 9.478542 vs. 0.000213
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [418 / 500] average loss generator vs. discrim.: 9.724961 vs. 0.000163
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [419 / 500] average loss generator vs. discrim.: 9.753884 vs. 0.000147
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [420 / 500] average loss generator vs. discrim.: 9.285259 vs. 0.000196
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [421 / 500] average loss generator vs. discrim.: 9.439339 vs. 0.000288
+[32mValid Score Improved (0.0003 ---> 0.0001)
+[32mModel Saved
+Epoch [422 / 500] average loss generator vs. discrim.: 9.701288 vs. 0.000150
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [423 / 500] average loss generator vs. discrim.: 9.364313 vs. 0.000198
+[32mValid Score Improved (0.0002 ---> 0.0004)
+[32mModel Saved
+Epoch [424 / 500] average loss generator vs. discrim.: 10.140302 vs. 0.000360
+[32mValid Score Improved (0.0004 ---> 0.0002)
+[32mModel Saved
+Epoch [425 / 500] average loss generator vs. discrim.: 9.621840 vs. 0.000196
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [426 / 500] average loss generator vs. discrim.: 9.596010 vs. 0.000183
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [427 / 500] average loss generator vs. discrim.: 9.861262 vs. 0.000180
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [428 / 500] average loss generator vs. discrim.: 9.731460 vs. 0.000183
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [429 / 500] average loss generator vs. discrim.: 9.717703 vs. 0.000172
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [430 / 500] average loss generator vs. discrim.: 9.553924 vs. 0.000163
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [431 / 500] average loss generator vs. discrim.: 9.465082 vs. 0.000158
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [432 / 500] average loss generator vs. discrim.: 9.279505 vs. 0.000220
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [433 / 500] average loss generator vs. discrim.: 9.435970 vs. 0.000271
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [434 / 500] average loss generator vs. discrim.: 9.515278 vs. 0.000204
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [435 / 500] average loss generator vs. discrim.: 9.395934 vs. 0.000203
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [436 / 500] average loss generator vs. discrim.: 9.576776 vs. 0.000185
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [437 / 500] average loss generator vs. discrim.: 9.932510 vs. 0.000244
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [438 / 500] average loss generator vs. discrim.: 10.126649 vs. 0.000154
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [439 / 500] average loss generator vs. discrim.: 9.822058 vs. 0.000126
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [440 / 500] average loss generator vs. discrim.: 9.864265 vs. 0.000176
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [441 / 500] average loss generator vs. discrim.: 9.500581 vs. 0.000179
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [442 / 500] average loss generator vs. discrim.: 9.644378 vs. 0.000174
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [443 / 500] average loss generator vs. discrim.: 9.640422 vs. 0.000185
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [444 / 500] average loss generator vs. discrim.: 9.424606 vs. 0.000149
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [445 / 500] average loss generator vs. discrim.: 9.530891 vs. 0.000193
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [446 / 500] average loss generator vs. discrim.: 9.595263 vs. 0.000179
+[32mValid Score Improved (0.0002 ---> 0.0003)
+[32mModel Saved
+Epoch [447 / 500] average loss generator vs. discrim.: 9.472936 vs. 0.000293
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [448 / 500] average loss generator vs. discrim.: 9.753521 vs. 0.000205
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [449 / 500] average loss generator vs. discrim.: 9.721608 vs. 0.000132
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [450 / 500] average loss generator vs. discrim.: 9.691102 vs. 0.000183
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [451 / 500] average loss generator vs. discrim.: 9.562645 vs. 0.000142
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [452 / 500] average loss generator vs. discrim.: 9.625580 vs. 0.000202
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [453 / 500] average loss generator vs. discrim.: 9.624672 vs. 0.000138
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [454 / 500] average loss generator vs. discrim.: 9.482405 vs. 0.000136
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [455 / 500] average loss generator vs. discrim.: 9.877745 vs. 0.000148
+[32mValid Score Improved (0.0001 ---> 0.0003)
+[32mModel Saved
+Epoch [456 / 500] average loss generator vs. discrim.: 9.390168 vs. 0.000252
+[32mValid Score Improved (0.0003 ---> 0.0002)
+[32mModel Saved
+Epoch [457 / 500] average loss generator vs. discrim.: 9.375178 vs. 0.000233
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [458 / 500] average loss generator vs. discrim.: 9.956362 vs. 0.000179
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [459 / 500] average loss generator vs. discrim.: 9.682454 vs. 0.000147
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [460 / 500] average loss generator vs. discrim.: 9.809284 vs. 0.000155
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [461 / 500] average loss generator vs. discrim.: 9.669029 vs. 0.000165
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [462 / 500] average loss generator vs. discrim.: 9.666760 vs. 0.000178
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [463 / 500] average loss generator vs. discrim.: 9.682295 vs. 0.000154
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [464 / 500] average loss generator vs. discrim.: 9.615334 vs. 0.000147
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [465 / 500] average loss generator vs. discrim.: 9.616723 vs. 0.000138
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [466 / 500] average loss generator vs. discrim.: 9.472175 vs. 0.000205
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [467 / 500] average loss generator vs. discrim.: 9.607132 vs. 0.000189
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [468 / 500] average loss generator vs. discrim.: 9.698383 vs. 0.000211
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [469 / 500] average loss generator vs. discrim.: 9.482220 vs. 0.000171
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [470 / 500] average loss generator vs. discrim.: 9.937616 vs. 0.000147
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [471 / 500] average loss generator vs. discrim.: 9.712778 vs. 0.000147
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [472 / 500] average loss generator vs. discrim.: 9.636336 vs. 0.000135
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [473 / 500] average loss generator vs. discrim.: 9.588785 vs. 0.000156
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [474 / 500] average loss generator vs. discrim.: 9.556314 vs. 0.000162
+[32mValid Score Improved (0.0002 ---> 0.0002)
+[32mModel Saved
+Epoch [475 / 500] average loss generator vs. discrim.: 9.661411 vs. 0.000153
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [476 / 500] average loss generator vs. discrim.: 9.734817 vs. 0.000144
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [477 / 500] average loss generator vs. discrim.: 9.693241 vs. 0.000166
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [478 / 500] average loss generator vs. discrim.: 9.585947 vs. 0.000143
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [479 / 500] average loss generator vs. discrim.: 9.740067 vs. 0.000148
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [480 / 500] average loss generator vs. discrim.: 9.716461 vs. 0.000139
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [481 / 500] average loss generator vs. discrim.: 9.776860 vs. 0.000173
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [482 / 500] average loss generator vs. discrim.: 9.819057 vs. 0.000149
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [483 / 500] average loss generator vs. discrim.: 9.736964 vs. 0.000147
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [484 / 500] average loss generator vs. discrim.: 9.809951 vs. 0.000132
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [485 / 500] average loss generator vs. discrim.: 9.714534 vs. 0.000167
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [486 / 500] average loss generator vs. discrim.: 9.771155 vs. 0.000126
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [487 / 500] average loss generator vs. discrim.: 9.633466 vs. 0.000114
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [488 / 500] average loss generator vs. discrim.: 9.706233 vs. 0.000136
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [489 / 500] average loss generator vs. discrim.: 9.630793 vs. 0.000136
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [490 / 500] average loss generator vs. discrim.: 9.787930 vs. 0.000154
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [491 / 500] average loss generator vs. discrim.: 9.663659 vs. 0.000120
+[32mValid Score Improved (0.0001 ---> 0.0002)
+[32mModel Saved
+Epoch [492 / 500] average loss generator vs. discrim.: 9.702657 vs. 0.000156
+[32mValid Score Improved (0.0002 ---> 0.0001)
+[32mModel Saved
+Epoch [493 / 500] average loss generator vs. discrim.: 9.806955 vs. 0.000150
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [494 / 500] average loss generator vs. discrim.: 9.969280 vs. 0.000128
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [495 / 500] average loss generator vs. discrim.: 9.876434 vs. 0.000101
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [496 / 500] average loss generator vs. discrim.: 9.844799 vs. 0.000124
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [497 / 500] average loss generator vs. discrim.: 9.923440 vs. 0.000121
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [498 / 500] average loss generator vs. discrim.: 9.847395 vs. 0.000124
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [499 / 500] average loss generator vs. discrim.: 9.827245 vs. 0.000120
+[32mValid Score Improved (0.0001 ---> 0.0001)
+[32mModel Saved
+Epoch [500 / 500] average loss generator vs. discrim.: 9.845493 vs. 0.000114
+Training complete in 0h 4m 51s
+Best Score: 0.0001
+cpu
+/home/hghallab/.local/lib/python3.10/site-packages/torch/utils/data/dataset.py:449: UserWarning: Length of split at index 1 is 0. This might result in an empty dataset.
+  warnings.warn(f"Length of split at index {i} is 0. "
+Number of parameters for generator: 3577667 and discriminator: 2766529
+Generator(
+  (deconv1): ConvTranspose2d(100, 512, kernel_size=(4, 4), stride=(1, 1))
+  (deconv1_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv2): ConvTranspose2d(512, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv2_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv3): ConvTranspose2d(256, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv3_bn): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv4): ConvTranspose2d(128, 64, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv4_bn): BatchNorm2d(64, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv5): ConvTranspose2d(64, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+)
+Discriminator(
+  (conv1): Conv2d(3, 64, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2): Conv2d(64, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2_bn): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv3): Conv2d(128, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv3_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv4): Conv2d(256, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv4_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv5): Conv2d(512, 1, kernel_size=(4, 4), stride=(1, 1))
+)

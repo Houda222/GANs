@@ -1,0 +1,39 @@
+
+Training ...
+torch.Size([8, 1, 59, 59])
+torch.Size([8])
+Training ...
+torch.Size([8, 59, 59])
+torch.Size([8])
+Training ...
+tensor([[0.5975, 0.4834, 0.5905,  ..., 0.4831, 0.5931, 0.5786],
+        [0.5554, 0.4993, 0.5772,  ..., 0.4073, 0.5774, 0.5325],
+        [0.5214, 0.5344, 0.5625,  ..., 0.4216, 0.4987, 0.4397],
+        ...,
+        [0.4428, 0.5259, 0.5587,  ..., 0.4351, 0.5506, 0.4830],
+        [0.4872, 0.5456, 0.5605,  ..., 0.4664, 0.5591, 0.4759],
+        [0.4511, 0.5429, 0.5382,  ..., 0.4193, 0.5024, 0.4210]],
+       grad_fn=<SelectBackward0>)
+torch.Size([8])
+Number of parameters for generator: 12660355 and discriminator: 11038081
+Generator(
+  (deconv1): ConvTranspose2d(100, 1024, kernel_size=(4, 4), stride=(1, 1))
+  (deconv1_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv2): ConvTranspose2d(1024, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv2_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv3): ConvTranspose2d(512, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv3_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv4): ConvTranspose2d(256, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv4_bn): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv5): ConvTranspose2d(128, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+)
+Discriminator(
+  (conv1): Conv2d(3, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2): Conv2d(128, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv3): Conv2d(256, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv3_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv4): Conv2d(512, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv4_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv5): Conv2d(1024, 1, kernel_size=(4, 4), stride=(1, 1))
+)

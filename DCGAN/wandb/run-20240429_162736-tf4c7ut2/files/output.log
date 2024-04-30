@@ -1,0 +1,58 @@
+
+Training ...
+Epoch [1 / 500] average loss generator vs. discrim.: 46.552883 vs. 1.596968
+Epoch [2 / 500] average loss generator vs. discrim.: 13.751137 vs. 0.000988
+Epoch [3 / 500] average loss generator vs. discrim.: 12.717520 vs. 0.002566
+Epoch [4 / 500] average loss generator vs. discrim.: 14.901005 vs. 0.000014
+Epoch [5 / 500] average loss generator vs. discrim.: 14.427059 vs. 0.000724
+Epoch [6 / 500] average loss generator vs. discrim.: 13.692594 vs. 0.000178
+Epoch [7 / 500] average loss generator vs. discrim.: 21.750877 vs. 0.049424
+Epoch [8 / 500] average loss generator vs. discrim.: 16.134863 vs. 0.000411
+Epoch [9 / 500] average loss generator vs. discrim.: 17.098341 vs. 0.002737
+Epoch [10 / 500] average loss generator vs. discrim.: 19.108253 vs. 0.000018
+Epoch [11 / 500] average loss generator vs. discrim.: 19.749327 vs. 0.001795
+Epoch [12 / 500] average loss generator vs. discrim.: 37.895622 vs. 0.130550
+Epoch [13 / 500] average loss generator vs. discrim.: 27.838631 vs. 0.000000
+Epoch [14 / 500] average loss generator vs. discrim.: 25.563408 vs. 0.000001
+Epoch [15 / 500] average loss generator vs. discrim.: 33.135445 vs. 0.000000
+Epoch [16 / 500] average loss generator vs. discrim.: 25.278755 vs. 0.000007
+Epoch [17 / 500] average loss generator vs. discrim.: 30.859837 vs. 0.000000
+Epoch [18 / 500] average loss generator vs. discrim.: 34.840534 vs. 0.000000
+Epoch [19 / 500] average loss generator vs. discrim.: 30.802696 vs. 0.000000
+Epoch [20 / 500] average loss generator vs. discrim.: 26.876915 vs. 0.000000
+Epoch [21 / 500] average loss generator vs. discrim.: 16.867579 vs. 0.000195
+Epoch [22 / 500] average loss generator vs. discrim.: 28.104349 vs. 0.000042
+Number of parameters for generator: 12660814 and discriminator: 61378945
+Generator(
+  (deconv1): ConvTranspose2d(100, 1024, kernel_size=(4, 4), stride=(1, 1))
+  (deconv1_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv2): ConvTranspose2d(1024, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv2_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv3): ConvTranspose2d(512, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv3_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv4): ConvTranspose2d(256, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv4_bn): BatchNorm2d(128, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv5): ConvTranspose2d(128, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv5_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv6): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv6_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv7): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (deconv7_bn): BatchNorm2d(3, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (deconv8): ConvTranspose2d(3, 3, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+)
+Discriminator(
+  (conv1): Conv2d(3, 128, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2): Conv2d(128, 256, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv2_bn): BatchNorm2d(256, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv3): Conv2d(256, 512, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv3_bn): BatchNorm2d(512, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv4): Conv2d(512, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv4_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv5): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv5_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv6): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv6_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv7): Conv2d(1024, 1024, kernel_size=(4, 4), stride=(2, 2), padding=(1, 1))
+  (conv7_bn): BatchNorm2d(1024, eps=1e-05, momentum=0.1, affine=True, track_running_stats=True)
+  (conv8): Conv2d(1024, 1, kernel_size=(4, 4), stride=(1, 1))
+)

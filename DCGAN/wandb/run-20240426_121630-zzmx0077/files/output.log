@@ -1,0 +1,9 @@
+
+Training ...
+torch.Size([8, 59, 59])
+torch.Size([8])
+Training ...
+torch.Size([8, 59, 59])
+torch.Size([8])
+Training ...
+torch.Size([8, 59, 59])
